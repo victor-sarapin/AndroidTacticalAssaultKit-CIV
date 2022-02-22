@@ -1,5 +1,98 @@
 # Version History
 
+## 4.4.0.15
+
+* Bug Fixes
+  * display the angle correctly for Grid  North when showing doghouses.
+
+## 4.4.0.14
+
+* Bug Fixes
+  * display the angle correctly when showing doghouses.
+
+## 4.4.0.13
+
+* Bug Fixes
+  * Null Pointer when setting the title of a MultiPolyline
+  * Toggling doghouse visibility displays doghouses for hidden routes
+
+## 4.4.0.12
+
+* Bug Fix
+  * Difficult time changing range and bearing units specifically feet/meters.
+
+## 4.4.0.11
+
+* Bug Fixes
+  * address issue with Spot Markers not getting properly renamed when done in succession.
+  * prevent a NullPointerException when rendering the label for a Range and Bearing arrow
+
+## 4.4.0.10
+
+* Bug Fix
+  * Prevent Null Pointer crash condition when getting the current IP in a 9 line.
+
+## 4.4.0.9
+
+* Bug Fixes
+  * address crashes within the Vehicle Model Usage on Android 12
+
+* Feature Additions
+  * change WMM2015 with WMM 2020
+
+## 4.4.0.8
+
+* Bug Fix
+  * fix tile size computation for equirectangular OSMDroid sqlite map data
+
+## 4.4.0.7
+
+* Bug Fixes
+  * do not allow user to pan the map via rotation when the radial is open
+  * Newly loaded terrain doesn't update until ATAK is restarted
+
+## 4.4.0.6
+
+* Bug Fixes
+  * do not continually call setTitle if the title is already set on MultiPolyline causing a crash
+  * ensure that fillStyle cannot be null (Playstore Crash Log)
+  * if a preference has a dependency on a hidden preference, then also hide the preference otherwise ATAK will crash
+  * fix map scale bar so that it accurately reflects distance
+
+## 4.4.0.5
+
+* Bug Fix
+  * For plugins using ImportFileBrowserDialog - fix case where extensions have not been set, assume wildcard '*'
+
+## 4.4.0.4
+
+* Bug Fix
+  * correction to allow for Network Monitor to handle detection of 2 PRC 163/167's.
+
+## 4.4.0.3
+
+* Bug Fixes
+  * address  hit back button in Import Manager to navigate up to "/storage". Note now no child directories or files listed
+  * Update video libraries to 20210812 Addresses issue outlined in when in rare situations during buffered * streaming, video playback could freeze
+  * in the case of distance or inclination being NaN, toast and do not continue
+  * fix logic for wildcard searches where wildcard character is not first or last
+  * protect against the possibility that the MapRenderer3 can be null causing a crash
+
+## 4.4.0.2
+
+* Bug Fixes
+  * only allow for text entry without newlines during callsign entry
+  * fix tile query issues with imagery capture for GRG Builder and other plugins
+  * break out and allow the port to be specified during enrollment, fixing a hard crash
+  * toggle the channels checkbox when the user clicks anywhere in the list item
+  * vehicle model load failsafe where if the vehicle is 0 length file, it will reload it from the apk
+  * fix occasional hard crash when hit testing rubbersheet models
+
+## 4.4.0.1
+
+* Bug Fixes
+  * Fix chat receipts showing up as chat messages in older version of ATAK
+
 ## 4.4.0.0
 
 * Bug Fixes

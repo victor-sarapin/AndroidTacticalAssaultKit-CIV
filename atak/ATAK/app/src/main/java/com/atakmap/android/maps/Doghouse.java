@@ -7,12 +7,15 @@ import android.preference.PreferenceManager;
 
 import androidx.annotation.NonNull;
 
+import com.atakmap.android.routes.Route;
+import com.atakmap.android.routes.RouteMapReceiver;
 import com.atakmap.android.util.ATAKUtilities;
 import com.atakmap.app.R;
 import com.atakmap.coremap.conversions.Angle;
 import com.atakmap.coremap.conversions.AngleUtilities;
 import com.atakmap.coremap.conversions.Span;
 import com.atakmap.coremap.conversions.SpanUtilities;
+import com.atakmap.coremap.log.Log;
 import com.atakmap.coremap.maps.coords.GeoCalculations;
 import com.atakmap.coremap.maps.coords.GeoPoint;
 import com.atakmap.coremap.maps.coords.GeoPointMetaData;
@@ -92,6 +95,28 @@ public final class Doghouse extends Polyline implements
         public String toString() {
             return _repr;
         }
+    }
+
+    @Override
+    public void setVisible(boolean visible) {
+        //if the current "new" state of the map item is now visible then we must
+        //check to associated route visibility
+        if(visible){
+            //make sure we have the routeUid set inside metadata
+            if(getMetaString("routeUID",null) != null){
+                MapItem item = RouteMapReceiver.getInstance().getRouteGroup().findItem("uid",getMetaString("routeUID",""));
+
+                //make sure its a route and if the route is not visible then dont call super() for updating the map item
+                //in this case the doghouse map items visibility to show, if the route is visible then we just call the super()
+                //which updates the map item to true/false
+                if(item instanceof Route && !item.getVisible()){
+                    return;
+                }
+            }else{
+                Log.w("Doghouse","Warning Doghouse is missing RouteUID metadata this shouldnt happen");
+            }
+        }
+        super.setVisible(visible);
     }
 
     public static final int MAX_FIELDS = 10;
@@ -476,22 +501,23 @@ public final class Doghouse extends Polyline implements
     }
 
     /**
-     * converts the bearing from 1 route point to the next by users current north reference preference
+     * Calculates the bearing from 1 route point to the next and sets it on the doghouse, displaying
+     * it using the user's current north reference preference.
      */
     private void setBearingToNext() {
         _bearingToNext = _source.get().bearingTo(_target.get());
-        double bearingMag;
+        double bearing;
         if (_northReference == NorthReference.MAGNETIC) {
-            bearingMag = ATAKUtilities.convertFromTrueToMagnetic(_source.get(),
+            bearing = ATAKUtilities.convertFromTrueToMagnetic(_source.get(),
                     _bearingToNext);
         } else if (_northReference == NorthReference.TRUE) {
-            bearingMag = ATAKUtilities.convertFromMagneticToTrue(_source.get(),
-                    _bearingToNext);
+            bearing = _bearingToNext;
         } else {
-            bearingMag = ATAKUtilities.computeGridConvergence(_source.get(),
+            double gridConvergence = ATAKUtilities.computeGridConvergence(_source.get(),
                     _target.get());
+            bearing = AngleUtilities.wrapDeg(_bearingToNext - gridConvergence);
         }
-        String bearingRepr = formatBearingString(bearingMag);
+        String bearingRepr = formatBearingString(bearing);
         setMetaString(
                 DoghouseFields.BEARING_TO_NEXT.toString(), bearingRepr);
 
