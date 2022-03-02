@@ -52,7 +52,7 @@
     <string name="dump_upload">Завантажити</string>
     <string name="placeholder_title" translatable="false">PLACEHOLDER</string>
     <string name="reset_hint">"Не показувати цю підказку знову.\nЩоб скинути налаштування, перейдіть у Налаштування->Підтримка->Скинути підказки"</string>
-    <string name="name">Ім'я</string>
+    <string name="name">Ім\'я</string>
     <string name="center">Центр</string>
     <string name="edge">Край</string>
     <string name="radius">Радіус</string>
@@ -78,7 +78,7 @@
     <string name="show_rings">Показати кільця діапазону</string>
     <string name="bullseye_to_center">До Центру</string>
     <string name="bullseye_from_center">З Центру</string>
-    <string name="poi_title">Об'єкт інтересу</string>
+    <string name="poi_title">Об\'єкт інтересу</string>
     <string name="multiselect">Багаторазовий вибір</string>
     <string name="open">відчинено</string>
     <string name="estimated_speed">Розрахункова швидкість</string>
@@ -216,7 +216,7 @@
     <string name="danger_close_coloring">Небезпека близько розмальовки</string>
     <string name="danger_close_coloring_summary">Покажіть небезпеку близьких кілець (лежачи і стоячи) різними кольорами. Якщо вимкнено, положення стоячи буде позначено червоним (лежачи не відображатиметься). Якщо ввімкнено, положення стоячи буде позначено червоним, а положення лежачи — жовтим.</string>
     <string name="use_digital_cas">Використовуйте цифровий пристрій CAS</string>
-    <string name="use_digital_cas_summary">Увімкнути зв’язок із пристроєм для надсилання DCAS</string>
+    <string name="use_digital_cas_summary">Увімкнути зв\'язок із пристроєм для надсилання DCAS</string>
     <string name="fah_distance">Відстань FAH (NM)</string>
     <string name="SeekBarPreference_androidns" translatable="false">http://schemas.android.com/apk/res/android</string>
     <string name="TrackLogKMLSerializier_opengis" translatable="false">http://www.opengis.net/kml/2.2</string>
@@ -272,7 +272,7 @@
     <string name="preferences_text12">Торкніться, щоб перевірити наявність оновлень програми зараз</string>
     <string name="preferences_text15">Завантаження плагіна</string>
     <string name="preferences_text16">Увімкнути завантаження плагінів під час запуску</string>
-    <string name="preferences_text17">Використовується для оновлення плагінів і пов’язаних програм. Може використовуватися зі сховищем за замовчуванням або користувацьким репозиторієм у внутрішній мережі.</string>
+    <string name="preferences_text17">Використовується для оновлення плагінів і пов\'язаних програм. Може використовуватися зі сховищем за замовчуванням або користувацьким репозиторієм у внутрішній мережі.</string>
     <string name="preferences_text18">Встановіть програми зовнішньої підтримки</string>
     <string name="preferences_text19">Програма нічного бачення</string>
     <string name="preferences_text20">Інтегрована функція нічного бачення</string>
@@ -368,7 +368,7 @@
     <string name="preferences_text48">Вийдіть із натисканням на спину</string>
     <string name="preferences_text49">Вийдіть, коли натиснуто кнопку «Назад».</string>
     <string name="preferences_text50">Запитайте перед виходом</string>
-    <string name="preferences_text51">З’явиться діалогове вікно з проханням вийти, а не відразу</string>
+    <string name="preferences_text51">З\'явиться діалогове вікно з проханням вийти, а не відразу</string>
     <string name="preferences_text52">Дія для довгого натискання на карту</string>
     <string name="preferences_text53">Визначає, що відбувається при тривалому натисканні на карту.</string>
     <string name="preferences_text56">Двічі торкніться, щоб збільшити в 2 рази</string>
@@ -420,8 +420,8 @@
     <string name="preferences_text91">Опублікувати номер VoIP</string>
     <string name="preferences_text92">Номер VoIP</string>
     <string name="preferences_text93">Номер VoIP або SIP-адреса для VoIP-дзвінків. Залиште порожнім, щоб не публікувати</string>
-    <string name="preferences_text94">Опублікувати ім’я користувача XMPP</string>
-    <string name="preferences_text95">Ім'я користувача чату XMPP/Jabber. Залиште порожнім, щоб не публікувати</string>
+    <string name="preferences_text94">Опублікувати ім\'я користувача XMPP</string>
+    <string name="preferences_text95">Ім\'я користувача чату XMPP/Jabber. Залиште порожнім, щоб не публікувати</string>
     <string name="preferences_text96">Опублікувати бажану адресу електронної пошти</string>
     <string name="preferences_text97">Бажана електронна адреса. Залиште порожнім, щоб не публікувати</string>
     <string name="preferences_text100">Надсилати подію CoT на основі збору місця розташування</string>
@@ -460,7 +460,7 @@
     <string name="preferences_text129">Моє місцезнаходження Колір / Розмір</string>
     <string name="preferences_text130">Налаштуйте піктограму панелі інструментів і кольори фону</string>
     <string name="preferences_text131">Налаштування панелі інструментів</string>
-    <string name="preferences_text132">Доступ до параметрів, пов’язаних із відображенням за замовчуванням для одиниць вимірювання, кутів і координат.</string>
+    <string name="preferences_text132">Доступ до параметрів, пов\'язаних із відображенням за замовчуванням для одиниць вимірювання, кутів і координат.</string>
     <string name="preferences_text133">Увімкнути відображення масштабу карти</string>
     <string name="preferences_text134">Вмикає візуальний масштаб карти на карті</string>
     <string name="preferences_text135">Увімкнути округлення масштабу карти</string>
@@ -472,7 +472,7 @@
     <string name="preferences_text141">Розмір значка та тексту</string>
     <string name="preferences_text142">Відносне масштабування, яке застосовується до піктограм і розміру тексту</string>
     <string name="preferences_text143">Розмір етикетки за замовчуванням</string>
-    <string name="preferences_text144">Розмір шрифту за замовчуванням, який використовується для позначення об’єктів на карті. Для цього буде потрібно перезапуск, щоб усі відтворені об’єкти могли використовувати новий розмір шрифту.</string>
+    <string name="preferences_text144">Розмір шрифту за замовчуванням, який використовується для позначення об\'єктів на карті. Для цього буде потрібно перезапуск, щоб усі відтворені об\'єкти могли використовувати новий розмір шрифту.</string>
     <string name="preferences_text145">Дозволяє затемнювати/освітлювати всі елементи карти за допомогою інструмента «Яскравість».</string>
     <string name="preferences_text146">Потемніння/освітлення накладання карти</string>
     <string name="preferences_text147">Налаштуйте параметри відображення операційної системи, включаючи час очікування екрана</string>
@@ -551,7 +551,7 @@
     <string name="preferences_text198">Налаштуйте, як цей пристрій відображатиметься в мережі</string>
     <string name="preferences_text199">Доступ до загальних налаштувань дисплея, таких як розмір шрифту, масштабування піктограм, яскравість та підсвічування програмних клавіш.</string>
     <string name="preferences_text200">Доступ до мережевих параметрів, таких як ідентифікаційна інформація, параметри розташування та конфігурація мережі</string>
-    <string name="preferences_text201">Параметри доступу, пов’язані з інструментами та плагінами</string>
+    <string name="preferences_text201">Параметри доступу, пов\'язані з інструментами та плагінами</string>
     <string name="preferences_text202">Налаштуйте параметри керування</string>
     <string name="preferences_text2020">Налаштуйте додаткові параметри</string>
     <string name="preferences_text203">Підтримка &amp; Програмна документація</string>
@@ -584,7 +584,7 @@
     <string name="preferences_text220a">Порт безпечного сервера</string>
     <string name="preferences_text221a">Захищений порт сервера обміну файлами</string>
     <string name="preferences_text222">Час очікування підключення для передачі файлів</string>
-    <string name="preferences_text223">Повторіть спробу передачі, якщо протягом цього періоду (секунд) не виявлено з’єднання</string>
+    <string name="preferences_text223">Повторіть спробу передачі, якщо протягом цього періоду (секунд) не виявлено з\'єднання</string>
     <string name="preferences_text224">Час очікування помилки передачі файлів</string>
     <string name="preferences_text225">Повторіть спробу передачі, якщо протягом цього періоду (сек.) прогрес не виявлено</string>
     <string name="pref_mp_all_servers">Використовувати всі сервери</string>
@@ -597,13 +597,13 @@
     <string name="preferences_text230">Відстежуйте підключення до сервера</string>
     <string name="preferences_text231">Увімкнути моніторинг підключень і ping-сервера після періодів бездіяльності мережі</string>
     <string name="preferences_text232">Розташування TrustStore SSL/TLS за замовчуванням</string>
-    <string name="preferences_text233">Сховище ключів PKCS12 за замовчуванням з вашими центрами сертифікації (файл .p12). Може використовувати це сховище ключів для з’єднань або завантажувати центри сертифікації для кожного з’єднання</string>
+    <string name="preferences_text233">Сховище ключів PKCS12 за замовчуванням з вашими центрами сертифікації (файл .p12). Може використовувати це сховище ключів для з\'єднань або завантажувати центри сертифікації для кожного з\'єднання</string>
     <string name="preferences_text234">Пароль SSL/TLS TrustStore за замовчуванням</string>
     <string name="preferences_text235">Сховище клієнтських сертифікатів SSL/TLS за замовчуванням</string>
-    <string name="preferences_text236">Сховище ключів PKCS12 за замовчуванням із сертифікатом клієнта (файл .p12). Може використовувати це сховище ключів для з’єднань або завантажувати клієнтські сертифікати для кожного з’єднання</string>
+    <string name="preferences_text236">Сховище ключів PKCS12 за замовчуванням із сертифікатом клієнта (файл .p12). Може використовувати це сховище ключів для з\'єднань або завантажувати клієнтські сертифікати для кожного з\'єднання</string>
     <string name="preferences_text237">Пароль сертифіката клієнта SSL/TLS за замовчуванням</string>
     <string name="preferences_text238">Облікові дані SSL/TLS за замовчуванням</string>
-    <string name="preferences_text239">Ім'я користувача та пароль за замовчуванням для підключень до сервера. Можна використовувати це для з’єднань або завантажувати облікові дані для кожного з’єднання</string>
+    <string name="preferences_text239">Ім\'я користувача та пароль за замовчуванням для підключень до сервера. Можна використовувати це для з\'єднань або завантажувати облікові дані для кожного з\'єднання</string>
     <string name="preferences_text240">Порт API Secure Server</string>
     <string name="preferences_text241">Захищений порт API сервера</string>
     <string name="preferences_text242">Незахищений порт API сервера</string>
@@ -641,11 +641,11 @@
     <string name="preferences_text252">Журнал мережевого трафіку</string>
     <string name="preferences_text252_summary">Якщо позначено, фіксує весь вихідний мережевий трафік у файл із значеннями, розділеними комами (CSV).</string>
     <string name="preferences_text253">Час очікування підключення TCP</string>
-    <string name="preferences_text254">Як довго (у секундах) чекати завершення TCP-з’єднань. Завдяки коротшим значенням невдалі з’єднання відбуваються швидше (більш чутливі), але якщо значення занадто коротке для вашої мережі, ви можете отримати помилкові збої з’єднання</string>
+    <string name="preferences_text254">Як довго (у секундах) чекати завершення TCP-з\'єднань. Завдяки коротшим значенням невдалі з\'єднання відбуваються швидше (більш чутливі), але якщо значення занадто коротке для вашої мережі, ви можете отримати помилкові збої з\'єднання</string>
     <string name="preferences_text255">Інтервал повторного приєднання до багатоадресної мережі</string>
     <string name="preferences_text256">Інтервал між спробами повторного приєднання до багатоадресної мережі (у секундах). Нуль означає, що не намагайтеся знову приєднатися.</string>
     <string name="preferences_text257a">Обернений трафік багатоадресної передачі</string>
-    <string name="preferences_text257b">Якщо ви не отримаєте вказівок, не вмикайте зворотний зв’язок багатоадресного трафіку, якщо ви не використовуєте іншу програму на тому ж пристрої для прослуховування трафіку, який надсилає ця програма. Це призведе до погіршення продуктивності роботи з мережею на цьому пристрої, оскільки весь вихідний трафік буде оброблятися як вхідні дані до цієї програми. Існують фільтри, щоб захистити цю програму від використання даних, які вона генерує, але для роботи потрібні ресурси.</string>
+    <string name="preferences_text257b">Якщо ви не отримаєте вказівок, не вмикайте зворотний зв\'язок багатоадресного трафіку, якщо ви не використовуєте іншу програму на тому ж пристрої для прослуховування трафіку, який надсилає ця програма. Це призведе до погіршення продуктивності роботи з мережею на цьому пристрої, оскільки весь вихідний трафік буде оброблятися як вхідні дані до цієї програми. Існують фільтри, щоб захистити цю програму від використання даних, які вона генерує, але для роботи потрібні ресурси.</string>
     <string name="preferences_text257">Залиште групу багатоадресної передачі, перш ніж спробувати знову приєднатися.</string>
     <string name="preferences_text258">Багатоадресний TTL</string>
     <string name="preferences_text259">Multicast TTL для вихідної багатоадресної передачі (потрібно перезавантажити)</string>
@@ -665,7 +665,7 @@
     <string name="preferences_text268">Підтримка Bluetooth</string>
     <string name="preferences_text269">Увімкніть сканування пристроїв Bluetooth, напр. LRF і GPS</string>
     <string name="preferences_text270">Час повторного підключення Bluetooth</string>
-    <string name="preferences_text271">Кількість секунд для спроби повторного з’єднання з перерваними з’єднаннями Bluetooth</string>
+    <string name="preferences_text271">Кількість секунд для спроби повторного з\'єднання з перерваними з\'єднаннями Bluetooth</string>
     <string name="preferences_text411">Налаштування мережі</string>
     <string name="preferences_text412">Trust Store (CA)</string>
     <string name="preferences_text413">Сертифікат клієнта</string>
@@ -821,7 +821,7 @@
 
     <!--Video-->
     <string name="preferences_text365">Idle Stream</string>
-    <string name="preferences_text366">Вкажіть, коли від’єднуватися від відеопотоку, коли відеопрогравач згорнуто (у секундах). Якщо значення дорівнює 0, спроба від’єднання не проводиться.</string>
+    <string name="preferences_text366">Вкажіть, коли від\'єднуватися від відеопотоку, коли відеопрогравач згорнуто (у секундах). Якщо значення дорівнює 0, спроба від\'єднання не проводиться.</string>
 
     <!--Support-->
     <string name="preferences_text372">Скинути підказки</string>
@@ -832,7 +832,7 @@
     <string name="preferences_text375">Торкніться, щоб експортувати журнали програми зараз</string>
     <string name="preferences_text376">Автоматичне завантаження журналів програми</string>
     <string name="autoUploadLogsSummary">Увімкніть завантаження журналів програми на TAK Server під час запуску програми</string>
-    <string name="preferences_logging_desc">Керуйте налаштуваннями, пов’язаними з реєстрацією даних програми, включаючи помилки, діагностичну інформацію та відомості про використання</string>
+    <string name="preferences_logging_desc">Керуйте налаштуваннями, пов\'язаними з реєстрацією даних програми, включаючи помилки, діагностичну інформацію та відомості про використання</string>
     <string name="debugPreferences">Налаштування журналу налагодження</string>
     <string name="appLoggingPreferences">Налаштування журналу програми</string>
     <string name="support">Підтримка</string>
@@ -855,13 +855,13 @@
     <string name="preferences_text420a">Можливість виправлення медіа-сервера</string>
     <string name="preferences_text421a"><![CDATA[Важлива примітка. Багато версій операційної системи Android містять проблему, через яку операційна система зупиняється під час сканування мультимедійних файлів (даних карт, відео). Ми виявили версію на Android, де ми можемо вирішити цю проблему, вимкнувши процес \"mediaserver\". ]]></string>
     <string name="preferences_text420b">Вимкнення оптимізації батареї</string>
-    <string name="preferences_text421b"><![CDATA[Важлива примітка. Операційна система Android намагається вимкнути можливості, щоб заощадити заряд акумулятора, навіть під час використання в робочих сценаріях.\n\n Виберіть **ТАК** або **ДОЗВОЛИТИ**, коли з'явиться запит якщо ви хочете вимкнути оптимізацію або припинити оптимізацію використання акумулятора.\n\nЯкщо це не зробити, це призведе до погіршення роботи користувача.]]></string>
+    <string name="preferences_text421b"><![CDATA[Важлива примітка. Операційна система Android намагається вимкнути можливості, щоб заощадити заряд акумулятора, навіть під час використання в робочих сценаріях.\n\n Виберіть **ТАК** або **ДОЗВОЛИТИ**, коли з\'явиться запит якщо ви хочете вимкнути оптимізацію або припинити оптимізацію використання акумулятора.\n\nЯкщо це не зробити, це призведе до погіршення роботи користувача.]]></string>
     <string name="preferences_text423">«Ви можете прочитати Ліцензійну угоду кінцевого користувача (EULA), натиснувши кнопку нижче».</string>
     <string name="preferences_text424">Натискаючи кнопку \"Я погоджуюсь\", ви погоджуєтесь з умовами Ліцензійного договору.\n</string>
     <string name="preferences_text425">Я згоден.</string>
     <string name="preferences_text426">Я відмовляюся.</string>
     <string name="preferences_text428">"Чи бажаєте ви встановити свій "</string>
-    <string name="preferences_text429">"і пов'язані налаштування?"</string>
+    <string name="preferences_text429">"і пов\'язані налаштування?"</string>
     <string name="preferences_text432">Виберіть зовнішній файл налаштувань</string>
     <string name="preferences_text433">Налаштування успішно імпортовано.</string>
     <string name="preferences_text434">Помилка імпорту налаштувань.</string>
@@ -1071,7 +1071,7 @@
     <string name="rb_input_tip4">Поки що немає в наявності</string>
     <string name="rb_circle_tip2">Недійсний радіус.</string>
     <string name="bloodhound_tip2">Самомаркера не існує. Будь ласка, дочекайтеся блокування GPS.</string>
-    <string name="bloodhound_tip3">Об’єкт Bloodhound недійсний. Будь ласка спробуйте ще раз.</string>
+    <string name="bloodhound_tip3">Об\'єкт Bloodhound недійсний. Будь ласка спробуйте ще раз.</string>
 
     <!--Point Dropper-->
     <string name="point_dropper_sensor_range_tip">Точка за межі максимального діапазону датчика</string>
@@ -1144,7 +1144,7 @@
     <string name="free_form">Вільна форма</string>
     <string name="rectangle">прямокутник</string>
     <string name="circle">Коло</string>
-    <string name="enter_object_height">Висота об'єкта:</string>
+    <string name="enter_object_height">Висота об\'єкта:</string>
     <string name="enter_point_height">Висота точки:</string>
     <string name="enter_marker_height">Висота маркера:</string>
     <string name="enter_shape_height">Висота форми:</string>
@@ -1183,7 +1183,7 @@
     <string name="selected_exports_export_or_send">Вибрано %d елементів.\nЕкспортувати у файл чи надіслати контакту?</string>
     <string name="delete_dialog">Видалити елементи</string>
     <string name="delete_details">Ви впевнені, що хочете видалити всі неархівовані маркери?</string>
-    <string name="delete_items_confirmation">Видалення об’єктів назавжди видаляє їх із пристрою. Продовжити?</string>
+    <string name="delete_items_confirmation">Видалення об\'єктів назавжди видаляє їх із пристрою. Продовжити?</string>
     <string name="delete_items_busy">Видалення елементів&#8230;</string>
     <string name="delete_items_failed">Не вдалося видалити елементи.</string>
     <string name="compute_md5">Обчислити MD5</string>
@@ -1532,7 +1532,7 @@
     <string name="point_dropper_text18">Виберіть Відео</string>
     <string name="point_dropper_text19">"Введіть загальну координату точки: "</string>
     <string name="point_dropper_text20">Висота точки:</string>
-    <string name="point_dropper_text21">«Вибрати колір об’єкта»</string>
+    <string name="point_dropper_text21">«Вибрати колір об\'єкта»</string>
     <string name="point_dropper_text22">Експортування Iconset</string>
     <string name="point_dropper_text23">Перезаписати \'</string>
     <string name="point_dropper_text24">Перевірте перезапис</string>
@@ -1558,7 +1558,7 @@
     <string name="point_dropper_text46">Не встановлено текстовий додаток…</string>
     <string name="point_dropper_text47">Номер VoIP не вказано…</string>
     <string name="point_dropper_text48">Не встановлено додаток VoIP…</string>
-    <string name="point_dropper_text49">Ім’я користувача XMPP не вказано…</string>
+    <string name="point_dropper_text49">Ім\'я користувача XMPP не вказано…</string>
     <string name="point_dropper_text50">Не встановлено додаток XMPP…</string>
     <string name="point_dropper_text51">Адреса електронної пошти не вказана…</string>
     <string name="point_dropper_text52">Не встановлено додаток електронної пошти…</string>
@@ -1639,7 +1639,7 @@
     <string name="waypoint">КПП</string>
     <string name="not_recognized">Не розпізнається</string>
     <string name="undefined">Невизначено!</string>
-    <string name="name_lower">ім'я</string>
+    <string name="name_lower">ім\'я</string>
     <string name="user">Користувач:</string>
     <string name="pass">пропуск:</string>
     <string name="login">Увійти</string>
@@ -1651,11 +1651,11 @@
     <string name="rename_caps">ПЕРЕЙМЕНУВАТИ</string>
     <string name="ground_caps">ЗЕМЛЯ</string>
     <string name="custom_color">Користувацький колір</string>
-    <string name="username">ім'я користувача</string>
+    <string name="username">ім\'я користувача</string>
     <string name="password">пароль</string>
-    <string name="username2">Ім'я користувача</string>
+    <string name="username2">Ім\'я користувача</string>
     <string name="password2">Пароль</string>
-    <string name="username_colon">Ім'я користувача:</string>
+    <string name="username_colon">Ім\'я користувача:</string>
     <string name="password_colon">Пароль:</string>
     <string name="address_colon">Адреса:</string>
     <string name="knots">"вузли"</string>
@@ -1745,7 +1745,7 @@
     <string name="video_text67">Час очікування мережі (с)</string>
     <string name="video_text68">Буферизація (додає затримку)</string>
     <string name="video_text69">Час (сек)</string>
-    <string name="video_text70">Надійне з'єднання P2P (споживає більше ресурсів)</string>
+    <string name="video_text70">Надійне з\'єднання P2P (споживає більше ресурсів)</string>
     <string name="video_text71">Парольна фраза</string>
     <string name="sending_to">"Відправка до"</string>
     <string name="video_alias">Псевдонім відео</string>
@@ -1795,7 +1795,7 @@
     <string name="nineline_text25">Усунути загрозу «земля-повітря».</string>
     <string name="nineline_text26">Зброя</string>
     <string name="nineline_text27">"Директор з цілі: "</string>
-    <string name="nineline_text28">Ви хочете видалити маркер, пов’язаний із цією загрозою «земля-повітря»?</string>
+    <string name="nineline_text28">Ви хочете видалити маркер, пов\'язаний із цією загрозою «земля-повітря»?</string>
     <string name="nineline_text29">"Відстань від цілі: "</string>
     <string name="nineline_text30">"UID маркера: "</string>
     <string name="nineline_text31">«Загроза з повітря»</string>
@@ -1821,7 +1821,7 @@
     <string name="nineline_text51">Встановити нижню межу ACA</string>
     <string name="nineline_text52">Встановити високу межу ACA</string>
     <string name="nineline_text53">Встановити Custom ACA</string>
-    <string name="nineline_text54">Виберіть точку або об’єкт на карті.</string>
+    <string name="nineline_text54">Виберіть точку або об\'єкт на карті.</string>
     <string name="nineline_text55">[не надається]</string>
     <string name="nineline_text56">«Залишся вище»</string>
     <string name="nineline_text57">«Залишся нижче»</string>
@@ -1864,7 +1864,7 @@
     <string name="nineline_text94">TT</string>
     <string name="nineline_text98">Виберіть дружню одиницю зброї з карти.</string>
     <string name="nineline_text99">Виберіть Місце розташування загрози</string>
-    <string name="nineline_text100">Якщо видалити зауваження, усі пов’язані з ним дані буде видалено. Все одно продовжувати?</string>
+    <string name="nineline_text100">Якщо видалити зауваження, усі пов\'язані з ним дані буде видалено. Все одно продовжувати?</string>
     <string name="nineline_text101">Додати/Вилучити зауваження</string>
     <string name="nineline_text102">номер порту не може бути вище 65535</string>
     <string name="nineline_text103">Неможливо проаналізувати введене значення.</string>
@@ -2061,7 +2061,7 @@
     <string name="stay">"Залишатися"</string>
     <string name="timing">Час</string>
     <string name="width">Ширина</string>
-    <string name="name2">Ім'я</string>
+    <string name="name2">Ім\'я</string>
     <string name="invalid_number">Недійсне число. Введіть дійсний номер.</string>
     <string name="laser_caps" translatable="false">LASER</string>
     <string name="go_caps">ЙДИ</string>
@@ -2118,7 +2118,7 @@
     <string name="notification_text9">"Помилка надсилання до"</string>
     <string name="notification_text10">хост недоступний</string>
     <string name="notification_text11">не вдалося вирішити хост</string>
-    <string name="notification_text12">З'єднання відхилено</string>
+    <string name="notification_text12">З\'єднання відхилено</string>
     <string name="notification_text13">Помилка рукостискання SSL; перевірте правильність порту та сертифікатів</string>
     <string name="notification_text14">віддалений хост не надав сертифікат</string>
     <string name="notification_text15">сертифікат віддаленого хоста не є надійним; перевірити довірчий магазин</string>
@@ -2315,13 +2315,13 @@
     <string name="select_lock_pointitem">Виберіть одноточковий маркер або елемент</string>
     <string name="role">Роль</string>
     <string name="node_type">Тип вузла</string>
-    <string name="default_connector">Роз'єм за замовчуванням</string>
+    <string name="default_connector">Роз\'єм за замовчуванням</string>
     <string name="additional_profiles">Додаткові профілі</string>
     <string name="profile">Профіль</string>
     <string name="profile_pic">Зображення профілю</string>
     <string name="contact_address">Контактна адреса</string>
     <string name="last_used">Останній контакт</string>
-    <string name="contact_handler">Зв'язатися з обробником</string>
+    <string name="contact_handler">Зв\'язатися з обробником</string>
     <string name="connector_details">Контактні дані</string>
     <string name="sensor_range_meters">Довжина діапазону датчика (м)</string>
     <string name="field_of_view_deg">Поле зору (°)</string>
@@ -2363,7 +2363,7 @@
     <string name="tool_text36">Пристрій не має компаса</string>
     <string name="tool_text38">Пристрій не має внутрішнього GPS</string>
     <string name="failed_to_save_changes">Не вдалося зберегти зміни</string>
-    <string name="label_required">Мітка обов’язкова</string>
+    <string name="label_required">Мітка обов\'язкова</string>
     <string name="label_may_not_be_reused">Мітка \'Default\' не може бути використана повторно</string>
     <string name="failed_to_add">"Не вдалося додати:"</string>
     <string name="rb_circle_prefix">R&amp;B Circle\u0020</string>
@@ -2392,11 +2392,11 @@
     <string name="to_import">"імпортувати"</string>
     <string name="version_space">"Версія"</string>
     <string name="loading">"Завантаження"</string>
-    <string name="connection_info">"Інформація про з'єднання: %1$s (%2$s)</string>
+    <string name="connection_info">"Інформація про з\'єднання: %1$s (%2$s)</string>
     <string name="enter_credentials">Введіть облікові дані</string>
     <string name="secure_delete">Безпечне видалення</string>
     <string name="export_logs">Експорт журналів</string>
-    <string name="connection_error">Помилка з'єднання</string>
+    <string name="connection_error">Помилка з\'єднання</string>
     <string name="network_library_error">Помилка мережевої бібліотеки</string>
     <string name="comms_error">Помилка ініціалізації основної комунікаційної бібліотеки</string>
     <string name="connection_config_error">Помилка конфігурації підключення</string>
@@ -2590,7 +2590,7 @@
     <string name="could_not_query_wmts">Не вдалося зробити запит WMTS:\u0020</string>
     <string name="layers_on">Шари на\u0020</string>
     <string name="layer_select_error">Помилка вибору шарів:\u0020</string>
-    <string name="no_layer_name_blank">Ім’я шару не може бути порожнім.</string>
+    <string name="no_layer_name_blank">Ім\'я шару не може бути порожнім.</string>
     <string name="layer_name_limit">Назви шарів можуть містити лише літери, цифри, тире, підкреслення та крапки.</string>
     <string name="layer_name_exist">Уже є шар з назвою\u0020</string>
     <string name="download_layer">Завантажити шар</string>
@@ -2776,8 +2776,8 @@
     <string name="watch">Дивитися</string>
     <string name="status_disconnected">Статус: відключено</string>
     <string name="radio_controls">Радіоуправління</string>
-    <string name="radio_state_disconnecting">відключення послідовного з'єднання ppp</string>
-    <string name="radio_state_connecting">спроба послідовного з'єднання ppp</string>
+    <string name="radio_state_disconnecting">відключення послідовного з\'єднання ppp</string>
+    <string name="radio_state_connecting">спроба послідовного з\'єднання ppp</string>
     <string name="radio_online">"онлайн:"</string>
     <string name="radio_device_not_rooted">пристрій %s не вкорінений</string>
     <string name="radio_device_unsupported">пристрій %s не підтримується</string>
@@ -2796,8 +2796,8 @@
     <string name="radio_ppp_hpw_details3">ІНТЕРФЕЙС HW=RS-232</string>
     <string name="radio_ppp_hpw_details4">\n\n\nЦе зазвичай кабелі, які використовуються на старій моделі PRC-152 і підтримують HPW/PPP, а не ANW2</string>
     <string name="radio_cable_configuration">Конфігурація кабелю</string>
-    <string name="radio_connection_attempt_exceeded">спроба підключення перевищена, з’єднання не вдалося</string>
-    <string name="radio_loss_connection">"втрата зв'язку:"</string>
+    <string name="radio_connection_attempt_exceeded">спроба підключення перевищена, з\'єднання не вдалося</string>
+    <string name="radio_loss_connection">"втрата зв\'язку:"</string>
     <string name="radio_retry_">"повторити"</string>
     <string name="invalid_address">Недійсна адреса</string>
     <string name="radio_enter_valid_address">Введіть дійсну адресу</string>
@@ -2806,7 +2806,7 @@
     <string name="radio_could_not_start_configuration">не вдалося запустити програму конфігурації</string>
     <string name="radio_initiating_connection">ініціювання підключення</string>
     <string name="radio_no_previous_connections">немає попередніх підключень</string>
-    <string name="radio_changing_connection">перехід на з'єднання %s</string>
+    <string name="radio_changing_connection">перехід на з\'єднання %s</string>
     <string name="recently_used">Нещодавно використаний</string>
     <string name="radio_coldstart_till_ready">"холодний запуск до готовності становить до 90 секунд"</string>
     <string name="connected">Підключено</string>
@@ -2816,13 +2816,13 @@
     <string name="radio_invalid_frequency">Виявлена недійсна частота, має бути дійсним кодом VDL у підтримуваних діапазонах UHF, L-діапазонів, S-діапазонів, C-діапазонів або Ku-діапазонів.</string>
     <string name="preset">Попередньо встановлені</string>
     <string name="radio_network_sending_normal">мережева відправка нормальна</string>
-    <string name="radio_communication_timeout">тайм-аут зв'язку</string>
+    <string name="radio_communication_timeout">тайм-аут зв\'язку</string>
     <string name="radio_communication_timeout_subtext1">помилка надсилання команди на пристрій</string>
-    <string name="radio_communication_sending_error">помилка надсилання зв'язку</string>
+    <string name="radio_communication_sending_error">помилка надсилання зв\'язку</string>
     <string name="radio_communication_timeout_subtext2">пристрій не відповідає - проблема конфігурації або завантаження пристрою</string>
     <string name="radio_attempt_reaquire_message">радіо онлайн, посилання не виявлено, починається сканування форми сигналу (за винятком DDL)</string>
     <string name="no_preset_selected">жодного попереднього налаштування не вибрано</string>
-    <string name="radio_no_connection_established_yet">з'єднання ще не встановлено</string>
+    <string name="radio_no_connection_established_yet">з\'єднання ще не встановлено</string>
     <string name="radio_enter_frequency_code">Введіть частотний код:</string>
     <string name="radio_no_scan_in_progress">наразі не виконується сканування</string>
     <string name="radio_configuration">"Конфігурація"</string>
@@ -2835,7 +2835,7 @@
     <string name="radio_ddl_tuner">DDL тюнер</string>
     <string name="radio_scan_frequency_range">Діапазон частот сканування</string>
     <string name="radio_background_scanning_frequencies">частоти фонового сканування, починаючи з %1$d і закінчуючи %2$d для форми хвилі: %3$s</string>
-    <string name="radio_issuing_encoding_parameters">видання параметрів кодування\ніініціювання аналогового з'єднання</string>
+    <string name="radio_issuing_encoding_parameters">видання параметрів кодування\ніініціювання аналогового з\'єднання</string>
     <string name="radio_initiating_analog_connection">ініціювання аналогового підключення</string>
     <string name="radio_initiating_digital_connection">ініціювання цифрового підключення</string>
     <string name="radio_static_network_settings">Статичні налаштування мережі</string>
@@ -2846,10 +2846,10 @@
     <string name="_network">"Мережа"</string>
     <string name="radio_physical_connection_controlled_internally">Підключення до фізичної мережі контролюється внутрішньо.</string>
     <string name="radio_network_missing">«Відсутня мережа»</string>
-    <string name="radio_physical_connection_between_rover_and_eud_disappeared">З'єднання фізичної мережі між %s і EUD зникло.</string>
+    <string name="radio_physical_connection_between_rover_and_eud_disappeared">З\'єднання фізичної мережі між %s і EUD зникло.</string>
     <string name="radio_physical_connection_disappeared">помилка фізична мережа зникла…</string>
     <string name="radio_network_problem">«Проблема з мережею»</string>
-    <string name="radio_trying_to_configure_connection">Спроба налаштувати з’єднання між %1$s та EUD як %2$s.</string>
+    <string name="radio_trying_to_configure_connection">Спроба налаштувати з\'єднання між %1$s та EUD як %2$s.</string>
     <string name="radio_error_network_down">помилка мережа не працює (спроба виправити)…</string>
     <string name="radio_network_healthy">«Здорова мережа»</string>
     <string name="radio_rover_using_network_interface_with_address">%1$s використовує %2$s з адресою %3$s</string>
@@ -2923,7 +2923,7 @@
     <string name="mission_package_request_data_error">Помилка даних запиту</string>
     <string name="mission_package_request_custom_error">Запит користувацької помилки</string>
     <string name="mission_package_edit_content_text">(%1$d елементів карти, %2$d файлів)</string>
-    <string name="name_missing">Відсутнє ім’я</string>
+    <string name="name_missing">Відсутнє ім\'я</string>
     <string name="mission_package_specify_name">Будь ласка, вкажіть назву для пакета</string>
     <string name="mission_package_unable_to_load_log">Не вдається завантажити деталі журналу</string>
     <string name="log_detail">Деталі журналу</string>
@@ -3084,8 +3084,8 @@
     <string name="failed_to_export_logs">Не вдалося експортувати журнали</string>
     <string name="importmgr_no_logs_to_export">Немає журналів для експорту</string>
     <string name="importmgr_failed_to_compress_logs">Не вдалося стиснути журнали</string>
-    <string name="enter_filename">Введіть ім'я файлу</string>
-    <string name="importmgr_filename_required_export_cancelled">Потрібне ім’я файлу, експорт скасовано</string>
+    <string name="enter_filename">Введіть ім\'я файлу</string>
+    <string name="importmgr_filename_required_export_cancelled">Потрібне ім\'я файлу, експорт скасовано</string>
     <string name="importmgr_failed_to_export_selected_items">Не вдалося експортувати вибрані елементи</string>
     <string name="confirm_overwrite">Підтвердьте перезапис</string>
     <string name="importmgr_overwrite_file">Перезаписати %s?</string>
@@ -3109,7 +3109,7 @@
     <string name="importmgr_request_custom_error">Запит користувацької помилки</string>
     <string name="importmgr_remote_kml_download_failed">Помилка віддаленого завантаження KML</string>
     <string name="importmgr_unable_to_determine_url">Не вдається визначити URL</string>
-    <string name="importmgr_unable_to_determine_kml_filename">Не вдається визначити ім’я файлу KML</string>
+    <string name="importmgr_unable_to_determine_kml_filename">Не вдається визначити ім\'я файлу KML</string>
     <string name="importmgr_remote_kml_download_started">Віддалене завантаження KML розпочато…</string>
     <string name="importmgr_downloading_count_files">Завантаження %d файлів…</string>
     <string name="importmgr_failed_to_create_local_file_filename">Не вдалося створити локальний файл: %s</string>
@@ -3221,7 +3221,7 @@
     <string name="port_ex_quot_8087_quot">Порт (наприклад: \"8087\")</string>
     <string name="description_ex_quot_toc_quot">Опис (наприклад: \"toc\")</string>
     <string name="use_authentication">Використовуйте аутентифікацію</string>
-    <string name="username_nw">Ім'я користувача:</string>
+    <string name="username_nw">Ім\'я користувача:</string>
     <string name="password_nw">Пароль:</string>
     <string name="submit">Подати</string>
     <string name="an_update_is_available_approximate_size_70mb_would_you_like_to_download_it">Доступне оновлення, приблизний розмір ~70 МБ. Бажаєте завантажити?</string>
@@ -3288,8 +3288,8 @@
     <string name="tileset">Tileset</string>
     <string name="user_icon_set">Набір іконок користувача</string>
     <string name="unable_to_start_bloodhound">Неможливо запустити бладхаунда, оскільки для параметра to або from не встановлено або встановлено те саме.</string>
-    <string name="bloodhound_from">Торкніться об’єкта на карті, щоб звідти шукача.</string>
-    <string name="bloodhound_to">Торкніться об’єкта на карті, на який потрібно шукати крові.</string>
+    <string name="bloodhound_from">Торкніться об\'єкта на карті, щоб звідти шукача.</string>
+    <string name="bloodhound_to">Торкніться об\'єкта на карті, на який потрібно шукати крові.</string>
     <string translatable="false" name="plus">+</string>
     <string translatable="false" name="minus">-</string>
     <string translatable="false" name="onehundred">100</string>
@@ -3464,9 +3464,9 @@
     <string name="spi_update_delay_summary">Максимальна затримка між надсиланням оновлень для точки SPI, якщо ввімкнено (у секундах), навіть якщо SPI не змінено. Переміщення точки SPI локально призведе до миттєвого оновлення.</string>
     <string translatable="false" name="spi_abbrev">SPI</string>
     <string name="bloodhound_text9">Увімкніть функцію автоматичного масштабування, щоб відобразити себе та SPI у вигляді карти під час першого запуску інструмента</string>
-    <string name="preferences_text123">Ім'я файлу без розширення (каталог atak/config/prefs)</string>
-    <string name="preferences_text273">Якщо ввімкнено, на ATAK з’явиться віджет увімкнення/вимкнення нічного бачення</string>
-    <string name="imagery_change_summ">У цій версії вкладку GRG повністю переміщено до диспетчера накладень.\nФайли GRG у форматі файлів TIF або KMZ мають бути розміщені в папці atak/grg або на карті пам’яті, або у внутрішній пам’яті.\n\nНа основі зображень продукти карти (pfps, native, layers) тепер мають бути розміщені в папці atak/imagery або на карті пам’яті sdcard, або у внутрішній пам’яті.\n\nНакладені продукти, такі як KML, KMZ, LPT, DRW тощо, слід розмістити в atak/ накладення папки на SD-карті або внутрішній пам'яті.</string>
+    <string name="preferences_text123">Ім\'я файлу без розширення (каталог atak/config/prefs)</string>
+    <string name="preferences_text273">Якщо ввімкнено, на ATAK з\'явиться віджет увімкнення/вимкнення нічного бачення</string>
+    <string name="imagery_change_summ">У цій версії вкладку GRG повністю переміщено до диспетчера накладень.\nФайли GRG у форматі файлів TIF або KMZ мають бути розміщені в папці atak/grg або на карті пам\'яті, або у внутрішній пам\'яті.\n\nНа основі зображень продукти карти (pfps, native, layers) тепер мають бути розміщені в папці atak/imagery або на карті пам\'яті sdcard, або у внутрішній пам\'яті.\n\nНакладені продукти, такі як KML, KMZ, LPT, DRW тощо, слід розмістити в atak/ накладення папки на SD-карті або внутрішній пам\'яті.</string>
 
 
     <string name="callsign_enter_dialogue">Введіть новий позивний</string>
@@ -3499,17 +3499,17 @@
     <string name="video_text32">Rover Sideband KLV</string>
     <string name="video_text65">Rover Sideband KLV</string>
     <string name="radio_rover_tre_quirks_mode">Rover THREE Quirks Mode</string>
-    <string name="radio_tre_quirks_mode_message">Важлива примітка. Якщо ви успішно під’єдналися до TacRover-E з активним аналоговим відео, але відео не відтворюється, спробуйте перевірити налаштування режиму TacRover-E Quirks на екрані конфігурації (зубчаста шестерня).</string>
+    <string name="radio_tre_quirks_mode_message">Важлива примітка. Якщо ви успішно під\'єдналися до TacRover-E з активним аналоговим відео, але відео не відтворюється, спробуйте перевірити налаштування режиму TacRover-E Quirks на екрані конфігурації (зубчаста шестерня).</string>
     <string name="radio_changed_firmware_device_message">Мікропрограмне забезпечення Rover змінилося або є іншим пристроєм, що може вимагати зміни параметрів конфігурації.</string>
     <string name="radio_rover_over_wifi_checked_message">Коли встановлено прапорець Rover over WiFi, усі спроби керувати та налаштовувати мережу будуть вимкнені.</string>
     <string name="auto_rover_address">Адреса Auto Rover</string>
     <string name="rover_address">Адреса ровера</string>
-    <string name="sir_firmware_warning">Увімкніть, лише якщо ви підключені до SIR і отримуєте час очікування зв’язку. Якщо ви не впевнені, веб-сторінка конфігурації ровера містить версію мікропрограми внизу. Крім того, номер версії мікропрограми має бути показаний у верхній частині цього діалогового вікна. Також повідомлялося про проблеми з мікропрограмою TRE 1.4.2 на стороні USB Ethernet.</string>
+    <string name="sir_firmware_warning">Увімкніть, лише якщо ви підключені до SIR і отримуєте час очікування зв\'язку. Якщо ви не впевнені, веб-сторінка конфігурації ровера містить версію мікропрограми внизу. Крім того, номер версії мікропрограми має бути показаний у верхній частині цього діалогового вікна. Також повідомлялося про проблеми з мікропрограмою TRE 1.4.2 на стороні USB Ethernet.</string>
     <string name="rover_sideband_klv">Rover Sideband KLV</string>
     <string name="rover_over_wifi">Ровер через Wi-Fi</string>
 
     <string name="hostile_manager">Ворожий менеджер</string>
-    <string name="nineline_text14">Ви хочете видалити Дев'яту лінію з цього ворожого?</string>
+    <string name="nineline_text14">Ви хочете видалити Дев\'яту лінію з цього ворожого?</string>
     <string name="point_dropper_text39">Торкніться карти, щоб розмістити ворожі маркери.</string>
     <string name="laser_basket_prompt4">Торкніться цілі. Має бути ворожим.</string>
     <string name="point_dropper_text40">Встановлено недійсну затримку оновлення SPI. Скидання до значення за замовчуванням 5.</string>
@@ -3537,7 +3537,7 @@
     <string name="nineline_text18">"9-лінійний"</string>
     <string name="nineline_text96">Ви отримали оновлення для поточного відкритого \n 9-рядка.</string>
     <string name="nineline_text97">Будь ласка, виберіть новий колір заголовка для вибраного 9-рядкового маркера.</string>
-    <string name="nineline">Дев'ятий рядок</string>
+    <string name="nineline">Дев\'ятий рядок</string>
 
     <string name="tak_contact">TAK Contact</string>
     <string name="public_tak_server">Public TAK Server</string>
@@ -3630,7 +3630,7 @@
     <string name="choose_selection_method">Виберіть спосіб вибору:</string>
     <string name="map_click_select_prompt">Торкніться десь на карті або елементі карти.</string>
 
-    <string name="internal_network_config_summary">Спробуйте конфігурувати мережу безпосередньо підключеного пристрою.\nПримітка: не рекомендується, щоб ATAK обробляв конфігурацію внутрішньої мережі USB-пристроїв Ethernet. Це краще справляється з зовнішньою програмою, як-от програмою для моніторингу мережі, яку можна знайти в розділі Налаштування: Програми. Зовнішній моніторинг з’єднання краще впорається з мережевими роз’єднаннями та повторними підключеннями.</string>
+    <string name="internal_network_config_summary">Спробуйте конфігурувати мережу безпосередньо підключеного пристрою.\nПримітка: не рекомендується, щоб ATAK обробляв конфігурацію внутрішньої мережі USB-пристроїв Ethernet. Це краще справляється з зовнішньою програмою, як-от програмою для моніторингу мережі, яку можна знайти в розділі Налаштування: Програми. Зовнішній моніторинг з\'єднання краще впорається з мережевими роз\'єднаннями та повторними підключеннями.</string>
     <string name="app_mgmt_auto_sync_details">Увімкніть, щоб перевірити наявність оновлень програми під час запуску. Вимкнути, щоб перевірити лише після оновлення версії ATAK</string>
     <string name="app_mgmt_text1">TAK Package Mgmt</string>
     <string name="app_mgmt_bundled">Програми підтримки ATAK в комплекті</string>
@@ -3691,7 +3691,7 @@
     <string name="ku_band_low" translatable="false">Ku-Band Low</string>
     <string name="ku_band_low_2" translatable="false">Ku-Band Low(2)</string>
     <string name="ku_band_high" translatable="false">Ku-Band High</string>
-    <string name="not_connected">Не під'єднано</string>
+    <string name="not_connected">Не під\'єднано</string>
     <string name="ROVER_UPPER" translatable="false">ROVER</string>
     <string name="ghz" translatable="false">--.--- GHz</string>
     <string name="m_channel" translatable="false">M- ---</string>
@@ -3854,8 +3854,8 @@
     <string name="host_hint">Хост (наприклад: \"192.168.0.2\")</string>
     <string name="port_hint">Порт (залиште пустим, щоб використовувати за замовчуванням)</string>
     <string name="server_hint">Шлях до сервера (наприклад: \"/uploads\")</string>
-    <string name="username_hint">Ім'я користувача (необов'язково)</string>
-    <string name="password_hint">Пароль (необов'язково)</string>
+    <string name="username_hint">Ім\'я користувача (необов\'язково)</string>
+    <string name="password_hint">Пароль (необов\'язково)</string>
     <string name="unknown_agl">Невідомий гл</string>
     <string name="no_targets">Немає цілей</string>
     <string name="connection_string">рядок підключення</string>
@@ -3977,7 +3977,7 @@
     <string name="my_servers_summary">Торкніться, щоб налаштувати підключення TAK Server</string>
     <string name="no_servers_title">Мережні підключення</string>
     <string name="no_servers_summary">Торкніться, щоб налаштувати сервер TAK і мережеві підключення</string>
-    <string name="no_servers_message">Імпортуйте пакет даних TAK Server, додайте TAK Server вручну або керуйте розширеними мережевими з’єднаннями</string>
+    <string name="no_servers_message">Імпортуйте пакет даних TAK Server, додайте TAK Server вручну або керуйте розширеними мережевими з\'єднаннями</string>
     <string name="add_tak_server">Додати НЕ сервер</string>
     <string name="import_mission_package">Імпорт пакету даних</string>
     <string name="advanced_network_settings">Мережні підключення</string>
@@ -4026,8 +4026,8 @@
     <string name="rendering_3d_options">3-D / Параметри візуалізації</string>
     <string name="coloring_and_tinting">Колір / Тонування</string>
     <string name="other_misc_display_options">Інші різні параметри відображення</string>
-    <string name="hsppplink">Підтримка високошвидкісного зв'язку "точка-точка".</string>
-    <string name="hsppplink_summary">Якщо вибрано, з’єднання "точка-точка" в системі вважається високошвидкісним. Це не можна вмикати, якщо не вказується. Нові радіоприймачі здатні підтримувати високошвидкісні тунелі, які розташовані «точка-точка». Старіші радіоприймачі підтримують послідовні з’єднання «точка-точка», які не мають високошвидкісних з’єднань. Для старих радіоприймачів увімкнення цієї функції призведе до перенасиченості каналу, фактично вимикаючи цю можливість.</string>
+    <string name="hsppplink">Підтримка високошвидкісного зв\'язку "точка-точка".</string>
+    <string name="hsppplink_summary">Якщо вибрано, з\'єднання "точка-точка" в системі вважається високошвидкісним. Це не можна вмикати, якщо не вказується. Нові радіоприймачі здатні підтримувати високошвидкісні тунелі, які розташовані «точка-точка». Старіші радіоприймачі підтримують послідовні з\'єднання «точка-точка», які не мають високошвидкісних з\'єднань. Для старих радіоприймачів увімкнення цієї функції призведе до перенасиченості каналу, фактично вимикаючи цю можливість.</string>
 
     <!-- Rubber sheet -->
     <string name="rubber_sheet">Гумовий лист</string>
@@ -4229,13 +4229,13 @@
     <string name="login_to">Увійдіть до %s</string>
     <string name="show_password">Показати пароль</string>
 
-    <string name="http_401_message">Сервер відхилив з'єднання, оскільки ім'я користувача або пароль неправильні.</string>
+    <string name="http_401_message">Сервер відхилив з\'єднання, оскільки ім\'я користувача або пароль неправильні.</string>
     <string name="http_403_message">Сервер відмовив у підключенні, оскільки користувач може не мати відповідних дозволів.</string>
 
     <string name="new_folder">Нова папка</string>
     <string name="read_only_location_msg">Це розташування доступне лише для читання.</string>
-    <string name="name_cannot_be_blank">Ім’я не може бути порожнім.</string>
-    <string name="name_contains_invalid_chars">Ім'я містить недопустимі символи.</string>
+    <string name="name_cannot_be_blank">Ім\'я не може бути порожнім.</string>
+    <string name="name_contains_invalid_chars">Ім\'я містить недопустимі символи.</string>
     <string name="new_folder_failed">Не вдалося створити нову папку.</string>
 
     <string name="show_urls">Показати URL-адреси</string>
@@ -4268,15 +4268,15 @@
     <string name="tadilj_id">Мій ідентифікатор каналу даних</string>
     <string name="tadilj_id2">Ідентифікатор каналу передачі даних</string>
     <string name="tadilj_self_type">Який тип повідомлення лінії даних надсилати для повідомлень SA</string>
-    <string name="tadilj_track_block">Це початок блоку ідентифікаторів зв’язку даних, які слід автоматично призначати противникам</string>
+    <string name="tadilj_track_block">Це початок блоку ідентифікаторів зв\'язку даних, які слід автоматично призначати противникам</string>
     <string name="tadilj_settings_summary">Керуйте налаштуваннями для повідомлень Datalink</string>
     <string name="managePersistedIdsSummary">Торкніться, щоб керувати ідентифікаторами постійних посилань даних</string>
     <string name="showTadiljIdsTitle">Показати ідентифікатори каналів передачі даних</string>
-    <string name="showTadiljIdsSummary">Якщо поставлено прапорець, на карті відображатимуться ідентифікатори зв’язку даних інших користувачів</string>
+    <string name="showTadiljIdsSummary">Якщо поставлено прапорець, на карті відображатимуться ідентифікатори зв\'язку даних інших користувачів</string>
     <string name="replaceTadiljIdsCallsignTitle">Замініть s на ідентифікатор каналу даних</string>
     <string name="replaceTadiljIdsCallsignSummary">На дисплеї самокоординації замініть позивний на ідентифікатор каналу передачі даних</string>
     <string name="preferences_text438">Скинути зміщення каналу передачі даних</string>
-    <string name="details_text50">"Введіть дані зв'язку даних: "</string>
+    <string name="details_text50">"Введіть дані зв\'язку даних: "</string>
     <string name="details_text52">"Очистити всі контакти Datalink?"</string>
 
     <string name="civ_stringSPIDesc">Увімкніть інструмент DP.</string>
@@ -4289,7 +4289,7 @@
     <string translatable="false" name="civ_spi_abbrev">DP</string>
 
     <string name="civ_bloodhound_text9">Увімкніть функцію автоматичного масштабування, щоб відображати себе та DP у перегляді карти під час першого запуску інструмента</string>
-    <string name="civ_imagery_change_summ">У цій версії вкладку «Накладання зображень» повністю переміщено до диспетчера накладень.\nФайли накладання зображень у форматі файлів TIF або KMZ слід розмістити в папці atak/grg або на карті пам’яті, або у внутрішній пам’яті.\n\ nПродукти карти на основі зображень (pfps, native, layers) тепер слід розміщувати в папці atak/imagery або на карті пам’яті, або у внутрішній пам’яті.\n\nПродукти накладання, такі як KML, KMZ, LPT, DRW тощо, слід розмістити в папку atak/overlay на SD-карті або внутрішній пам'яті.</string>
+    <string name="civ_imagery_change_summ">У цій версії вкладку «Накладання зображень» повністю переміщено до диспетчера накладень.\nФайли накладання зображень у форматі файлів TIF або KMZ слід розмістити в папці atak/grg або на карті пам\'яті, або у внутрішній пам\'яті.\n\ nПродукти карти на основі зображень (pfps, native, layers) тепер слід розміщувати в папці atak/imagery або на карті пам\'яті, або у внутрішній пам\'яті.\n\nПродукти накладання, такі як KML, KMZ, LPT, DRW тощо, слід розмістити в папку atak/overlay на SD-карті або внутрішній пам\'яті.</string>
     <string name="civ_point_dropper_text40">Встановлено недійсну затримку оновлення DP. Скидання до значення за замовчуванням 5.</string>
     <string name="civ_fireSpiNumber">Кількість ДП</string>
     <string name="civ_fireSpiNumberSummary">Кількість DP для відображення на панелі інструментів Digital Pointer</string>
@@ -4318,7 +4318,7 @@
     <string name="dar_encryptor_message">[%s встановлено]</string>
     <string name="outline_colon">Опис:</string>
     <string name="chat_message_no_recipients">Зараз у цій групі немає онлайн-користувачів.</string>
-    <string name="pref_save_title">Ім'я файлу без розширення (каталог atak/config/prefs</string>
+    <string name="pref_save_title">Ім\'я файлу без розширення (каталог atak/config/prefs</string>
     <string name="pref_billboard_distance_title">Відстань візуалізації рекламного щита</string>
     <string name="pref_billboard_distance_desc">Під час навігації відображатимуться рекламні щити з вкладеними зображеннями в межах цієї відстані.</string>
     <string name="pref_billboard_category">Прикріплені білборди</string>
