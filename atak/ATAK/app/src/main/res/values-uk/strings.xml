@@ -2,7 +2,7 @@
 <resources>
 
     <!--General-->
-    <string name="of">"з"</string>
+    <string name="of">" з "</string>
     <string name="hide">Сховати</string>
     <string name="show">Показати</string>
     <string name="home">На головну</string>
@@ -13,7 +13,7 @@
     <string name="save">Зберегти</string>
     <string name="success">Успіх</string>
     <string name="failure">Невдача</string>
-    <string name="confirm">Підтвердьте</string>
+    <string name="confirm">Підтвердити</string>
     <string name="warning">Увага</string>
     <string name="settings">Налаштування</string>
     <string name="date">Дата</string>
@@ -30,7 +30,7 @@
     <string name="next">Далі</string>
     <string name="self_loc">Власне розташування</string>
     <string name="self">Самостійне</string>
-    <string name="show_all">Покажи все</string>
+    <string name="show_all">Показати все</string>
     <string name="title2">Назва:</string>
     <string name="done">Готово</string>
     <string name="search">Пошук</string>
@@ -39,19 +39,19 @@
     <string name="edit_lower">редагувати</string>
     <string name="component">компонент</string>
     <string name="test">випробування</string>
-    <string name="really_quit_title">Вийти з оповіщення</string>
-    <string name="really_quit_msg">Ви хочете кинути?</string>
+    <string name="really_quit_title">Вийти зі сповіщення</string>
+    <string name="really_quit_msg">Ви справді хочете вийти?</string>
     <string name="yes">Так</string>
     <string name="no">Ні</string>
     <string name="cache_creds_do_not">Не кешувати</string>
-    <string name="cache_creds_username">Кеш імені користувача</string>
-    <string name="cache_creds_both">Облікові дані кешу</string>
+    <string name="cache_creds_username">Кешувати ім\'я користувача</string>
+    <string name="cache_creds_both">Кешувати облікові дані</string>
     <string name="no_more_data">більше немає картографічних даних у цьому напрямку</string>
-    <string name="retry">Повторіть спробу</string>
+    <string name="retry">Повторити спробу</string>
     <string name="cancel">Скасувати</string>
     <string name="dump_upload">Завантажити</string>
     <string name="placeholder_title" translatable="false">PLACEHOLDER</string>
-    <string name="reset_hint">"Не показувати цю підказку знову.\nЩоб скинути налаштування, перейдіть у Налаштування->Підтримка->Скинути підказки"</string>
+    <string name="reset_hint">"Більше не показувати цю підказку.\nЩоб скинути налаштування, перейдіть у Налаштування->Підтримка->Скинути підказки"</string>
     <string name="name">Ім\'я</string>
     <string name="center">Центр</string>
     <string name="edge">Край</string>
@@ -60,47 +60,47 @@
     <string name="rings">Кільця</string>
     <string name="remarks">Зауваження</string>
     <string name="elevation_profile">Профіль висоти</string>
-    <string name="are_you_sure">Ти впевнений?</string>
+    <string name="are_you_sure">Ви впевнені?</string>
     <string name="rename">Перейменувати</string>
-    <string name="remove">"Видалити"</string>
-    <string name="ok">гаразд</string>
+    <string name="remove">"Видалити "</string>
+    <string name="ok">OK</string>
     <string name="recently_added">Нещодавно додані бали</string>
-    <string name="iconset_manager">Менеджер набору іконок</string>
+    <string name="iconset_manager">Менеджер іконок</string>
     <string name="add_iconset">Додати набір іконок</string>
     <string name="iconset">Набір іконок</string>
     <string name="UID" translatable="false">UID</string>
     <string name="count">Рахувати</string>
-    <string name="verify_delete">Перевірте видалення</string>
+    <string name="verify_delete">Перевірити видалення</string>
     <string name="delete_no_space">Видалити</string>
-    <string name="create">Створюйте</string>
+    <string name="create">Створити</string>
     <string name="import_string">Імпорт</string>
     <string name="ignore">Ігнорувати</string>
     <string name="show_rings">Показати кільця діапазону</string>
-    <string name="bullseye_to_center">До Центру</string>
-    <string name="bullseye_from_center">З Центру</string>
-    <string name="poi_title">Об\'єкт інтересу</string>
-    <string name="multiselect">Багаторазовий вибір</string>
-    <string name="open">відчинено</string>
-    <string name="estimated_speed">Розрахункова швидкість</string>
+    <string name="bullseye_to_center">До центру</string>
+    <string name="bullseye_from_center">З центру</string>
+    <string name="poi_title">POI/Важливе місце</string>
+    <string name="multiselect">Варіанти вибору</string>
+    <string name="open">Відкрити</string>
+    <string name="estimated_speed">Очікувана швидкість</string>
 
     <!-- TOOLBAR BUTTONS -->
-    <string name="zoom_in_title">Збільшувати</string>
-    <string name="zoom_out_title">Зменшення</string>
-    <string name="lock_on_self_title">Блокування на себе</string>
+    <string name="zoom_in_title">Збільшити</string>
+    <string name="zoom_out_title">Зменшити</string>
+    <string name="lock_on_self_title">Навести на себе</string>
     <string name="orientation_title">Орієнтація</string>
-    <string name="red_x_tool_title">Червоний інструмент X</string>
-    <string name="range_and_bearing_title">Діапазон &amp; Підшипник</string>
+    <string name="red_x_tool_title">Червона мітка X</string>
+    <string name="range_and_bearing_title">Діапазон і азимут</string>
     <string name="routes_title">Маршрути</string>
     <string name="video_player_title">Відеоплеєр</string>
-    <string name="contact_title">Контакти</string>
-    <string name="point_dropper_title">Точкова крапельниця</string>
-    <string name="go_to_title">Йти до</string>
+    <string name="contact_title">Контакт</string>
+    <string name="point_dropper_title">Скопіювати місце</string>
+    <string name="go_to_title">Перейти до</string>
     <string name="casevac_title" translatable="false">CaseVAC</string>
     <string name="drawing_tools_title">Інструменти для малювання</string>
     <string name="elevation_tools_title">Інструменти для підйому</string>
-    <string name="fire_tools_title">Пожежні інструменти</string>
+    <string name="fire_tools_title">Інструменти вогню</string>
     <string name="gallery_title">Галерея</string>
-    <string name="maps_and_favorites_title">Карти &amp; Вибране</string>
+    <string name="maps_and_favorites_title">Карти і вибране</string>
     <string name="overlay_title">Накладки</string>
     <string name="quick_nav_title">Швидка навігація</string>
     <string name="quick_pic_title">Швидке фото</string>
@@ -108,15 +108,15 @@
 
 
     <!-- PREFERENCES -->
-    <string name="preferences">вподобання</string>
+    <string name="preferences">Налаштування</string>
     <string name="networkPreferences">Налаштування мережі</string>
     <string name="networkConnectionPreferences">Налаштування мережевого підключення</string>
     <string name="displayPreferences">Налаштування відображення</string>
-    <string name="unitDisplayPreferences">Параметри формату відображення одиниць</string>
+    <string name="unitDisplayPreferences">Налаштування формату відображення одиниць</string>
     <string name="toolPreferences">Налаштування інструментів</string>
-    <string name="myPreferences">Мої вподобання</string>
-    <string name="myDevice">Керувати моїм пристроєм</string>
-    <string name="myUser">Керувати моїм користувачем</string>
+    <string name="myPreferences">Мої налаштування</string>
+    <string name="myDevice">Управління моїм пристроєм</string>
+    <string name="myUser">Управління обліковим записом</string>
     <string name="mySupport">Підтримка</string>
     <string name="devicePreferences">Налаштування пристрою</string>
     <string name="reportingPreferences">Налаштування звітності</string>
@@ -124,27 +124,27 @@
     <string name="controlPreferences">Налаштування керування</string>
     <string name="morePreferences">Показати всі налаштування</string>
     <string name="legacy_settings">Перегляд застарілих налаштувань</string>
-    <string name="preferences_text2031">Увімкнути, щоб відображати всі налаштування під час відкриття налаштувань</string>
+    <string name="preferences_text2031">Увімкнути для відображення всіх опцій налаштувань</string>
     <string name="alertPreferences">Налаштування сповіщень</string>
-    <string name="gridLinePreferences">Налаштування лінії сітки</string>
+    <string name="gridLinePreferences">Налаштування сітки</string>
     <string name="imageryLayerPreferences">Налаштування контуру шару зображень</string>
-    <string name="offscreenIndPreferences">Налаштування позаекранних індикаторів</string>
-    <string name="elevationPreferences">Налаштування накладень висоти</string>
-    <string name="importStylePreferences">Імпортувати стиль за замовчуванням</string>
+    <string name="offscreenIndPreferences">Налаштування закадрових індикаторів</string>
+    <string name="elevationPreferences">Налаштування шарів висоти</string>
+    <string name="importStylePreferences">Імпорт стилю налаштувань за замовчуванням</string>
     <string name="geocoderPreference">Параметри пошуку адреси</string>
     <string name="chatPreference">Налаштування чату</string>
     <string name="videoPreferences">Налаштування відео</string>
     <string name="routePreferences">Налаштування маршруту</string>
-    <string name="bloodhoundPreferences">Налаштування Bloodhound</string>
-    <string name="bloodhoundSubPreferences">Налаштуйте параметри Bloodhound</string>
-    <string name="bloodhoundETAPreferences">Налаштування Bloodhound ETA</string>
+    <string name="bloodhoundPreferences">Налаштування бладгаунда</string>
+    <string name="bloodhoundSubPreferences">Налаштуйте параметри бладгаунда</string>
+    <string name="bloodhoundETAPreferences">Налаштування бладгаунда ETA</string>
     <string name="bloodhoundRerouteTimer">Змінити частоту таймера</string>
-    <string name="bloodhound_no_planners">Немає доступних планувальників маршрутів.</string>
-    <string name="bloodhoundRerouteDistance">Змінити відстань</string>
-    <string name="bloodhoundRerouteTimerDescription">Укажіть, як часто бладхаунд перевірятиме, чи потрібно розрахувати перемаршрут.</string>
-    <string name="bloodhoundRerouteDistanceDescription">Укажіть відстань від маршруту, яку має перемістити точка, перш ніж обчислити перемаршрут.</string>
+    <string name="bloodhound_no_planners">Немає доступних планів маршрутів.</string>
+    <string name="bloodhoundRerouteDistance">Перепрокласти маршрут</string>
+    <string name="bloodhoundRerouteTimerDescription">Укажіть, як часто бладгаунд перевірятиме, чи потрібно розрахувати перепрокладений маршрут.</string>
+    <string name="bloodhoundRerouteDistanceDescription">Укажіть відстань від маршруту, куди має переміститися точка, перш ніж розрахувати перепрокладений маршрут.</string>
     <string name="locationPreferences">Налаштування розташування</string>
-    <string name="breadcrumbPreferences">Вподобання хлібних крихт</string>
+    <string name="breadcrumbPreferences">Налаштування навігації</string>
     <string name="notificationPreferences">Налаштування сповіщень</string>
     <string name="historyPreferences">Налаштування історії</string>
     <string name="geochatPreferences">Налаштування мережі Geo Chat (Mesh).</string>
@@ -154,10 +154,10 @@
     <string name="otherPreferences">Інші параметри керування</string>
     <string name="androidPreferences">Налаштування дисплея Android</string>
     <string name="addressPreferences">Параметри пошуку адреси</string>
-    <string name="initialPreferences">Початкові налаштування балів</string>
+    <string name="initialPreferences">Налаштування початкової точки</string>
     <string name="bluetoothPreferences">Налаштування Bluetooth</string>
     <string name="communicationPreferences">Комунікаційні налаштування</string>
-    <string name="localPreferences">Місцеві вподобання</string>
+    <string name="localPreferences">Місцеві налаштування</string>
     <string name="visualPreferences">Візуальні налаштування</string>
     <string name="toolsPreferences">Налаштування інструментів</string>
     <string name="coordinatePreferences">Налаштування координат</string>
@@ -173,8 +173,8 @@
     <string name="format" translatable="false">format.dat</string>
     <string name="dropdown_width" translatable="false">2</string>
 
-    <string name="contact_list_button_select_all">Вибрати все</string>
-    <string name="contact_list_button_deselect_all">Скасуйте вибір усіх</string>
+    <string name="contact_list_button_select_all">Виділити все</string>
+    <string name="contact_list_button_deselect_all">Скасувати виділення</string>
     <string name="contact_list_button_share">Надіслати</string>
     <string name="contact_list_child_default_text" translatable="false">@string/callsign_parenths</string>
     <string name="contact_list_button_send_to_all">Трансляція</string>
@@ -185,7 +185,7 @@
     <string name="grid_color_title">Колір лінії сітки</string>
     <string name="layer_outline_color_summary">Виберіть колір, щоб зробити контури шару більш видимими</string>
     <string name="layer_outline_color_title">Колір контуру шару</string>
-    <string name="alias_del_title">Видалити відеопотік</string>
+    <string name="alias_del_title">Видалити відеотрансляцію</string>
     <string name="remove_file">Видалити файл з пристрою</string>
     <string name="fast_reverse">Швидкий реверс</string>
     <string name="slow_reverse">Повільний реверс</string>
@@ -200,21 +200,21 @@
     <string name="pitch_title">Висота:</string>
     <string name="tailnum_title">Номер хвоста:</string>
     <string name="latitude_title">Широта:</string>
-    <string name="longitude_title">довгота:</string>
+    <string name="longitude_title">Довгота:</string>
     <string name="range_title">Діапазон:</string>
-    <string name="coord_sys_title">Coor Sys:</string>
+    <string name="coord_sys_title">Система координат:</string>
     <string name="sensor_title">Датчик:</string>
     <string name="device_title">Пристрій:</string>
     <string name="hfov_title">HFOV:</string>
     <string name="vfov_title">VFOV:</string>
-    <string name="roll_title">рулон:</string>
+    <string name="roll_title">Протокол:</string>
     <string name="nation">Пацієнти за національністю</string>
     <string name="munitionNumberPrompt">Виберіть кількість боєприпасів:</string>
 
-    <string name="zeroize_sub_text">Очистити карти &amp; образність</string>
+    <string name="zeroize_sub_text">Очистити карти і зображення</string>
 
-    <string name="danger_close_coloring">Небезпека близько розмальовки</string>
-    <string name="danger_close_coloring_summary">Покажіть небезпеку близьких кілець (лежачи і стоячи) різними кольорами. Якщо вимкнено, положення стоячи буде позначено червоним (лежачи не відображатиметься). Якщо ввімкнено, положення стоячи буде позначено червоним, а положення лежачи — жовтим.</string>
+    <string name="danger_close_coloring">Кольори небезпеки поблизу</string>
+    <string name="danger_close_coloring_summary">Показати кільця небезпеки поблизу (лежачи і стоячи) різними кольорами. Якщо вимкнено, положення стоячи буде позначено червоним (лежачи не відображатиметься). Якщо ввімкнено, положення стоячи буде позначено червоним, а положення лежачи — жовтим.</string>
     <string name="use_digital_cas">Використовуйте цифровий пристрій CAS</string>
     <string name="use_digital_cas_summary">Увімкнути зв\'язок із пристроєм для надсилання DCAS</string>
     <string name="fah_distance">Відстань FAH (NM)</string>
@@ -228,59 +228,59 @@
     <string name="FalconSA_su" translatable="false">/system/xbin/su</string>
     <string name="FalconSA_su2" translatable="false">/su/bin/su</string>
     <string name="FalconSA_pppd" translatable="false">/system/bin/pppd</string>
-    <string name="select_item">Виберіть пункт</string>
+    <string name="select_item">Виберіть елемент</string>
     <string name="select_item_move">Виберіть елемент для переміщення</string>
-    <string name="manage_plugins">плагіни</string>
+    <string name="manage_plugins">Плагіни</string>
     <string name="package_mgmt_tool">Управління пакетами</string>
     <string name="package_mgmt_namespace" translatable="false">com.partech.selfupgrader</string>
     <string name="package_mgmt_apkname" translatable="false">atakpackagemgmt-release.apk</string>
     <string name="search_hint">Введіть пошукові терміни</string>
     <string name="actionbar_TITLE_TAG" translatable="false">TITLE_TAG</string>
     <string name="choose_app">Виберіть додаток…</string>
-    <string name="preferences_text409">Не вдалося створити файл. Це вже існує?</string>
-    <string name="preferences_text410">Система все ще завантажується. Будь ласка спробуйте ще раз.</string>
+    <string name="preferences_text409">Не вдалося створити файл. Він вже створений?</string>
+    <string name="preferences_text410">Система завантажується. Будь ласка, спробуйте ще раз.</string>
     <string name="voip_assignment_disabled">Без VoIP</string>
     <string name="voip_assignment_manual_entry">Введення вручну</string>
     <string name="voip_assignment_ip">Використовуйте IP-адресу</string>
     <string name="voip_assignment_ip_callsign">Використовуйте позивний та IP-адресу</string>
-    <string name="emergency_sms">Коли прапорець «Надіслати SMS» поставлено та видається сповіщення, ці номери автоматично отримають SMS.</string>
+    <string name="emergency_sms">Якщо вибрано «Надіслати SMS» і приходить сповіщення, ці номери автоматично отримають SMS.</string>
     <string name="hostileUpdatePreferences">Автоматична трансляція маркера</string>
-    <string name="hostileUpdateSummary">Змініть час між оновленнями для маркерів, що транслюються. Цю функцію потрібно вибрати на сторінці «Деталі» для маркера. Якщо значення встановлено на 0, функція вимкнена.</string>
+    <string name="hostileUpdateSummary">Змініть час між оновленнями для трансляції маркерів. Цю функцію потрібно вибрати на сторінці «Деталі» маркера. Функціонал вимкнено, якщо вибрано значення 0.</string>
     <string name="media">Вкладення</string>
     <string name="attachment_details">Деталі вкладення</string>
     <string name="loc_error">Помилка розташування %s</string>
 
     <!--Accounts-->
-    <string name="accounts">Рахунки</string>
-    <string name="accounts_desc">Керуйте обліковими даними облікового запису</string>
+    <string name="accounts">Облікові записи</string>
+    <string name="accounts_desc">Управління даними облікового запису</string>
     <string name="add_account">Додати обліковий запис</string>
     <string name="delete_account_msg">Видалити обліковий запис: %s?</string>
 
     <!--Alert-->
-    <string name="preferences_text1">Відображати сповіщення Android під час сповіщення</string>
-    <string name="preferences_text2">Звукове сповіщення</string>
-    <string name="preferences_text3">Звуковий сигнал під час оповіщення</string>
-    <string name="preferences_text4">Вібраційне сповіщення</string>
-    <string name="preferences_text5">Вібрація пристрою під час оповіщення</string>
-    <string name="preferences_text6">Номери SMS сповіщень</string>
+    <string name="preferences_text1">Відображати сповіщення для Android під час сигналу</string>
+    <string name="preferences_text2">Звуковий сигнал</string>
+    <string name="preferences_text3">Звуковий сигнал під час сповіщення</string>
+    <string name="preferences_text4">Вібрація сповіщення</string>
+    <string name="preferences_text5">Вібрація пристрою під час сповіщення</string>
+    <string name="preferences_text6">Номери для SMS-сповіщень</string>
 
     <!--Apps-->
-    <string name="app_mgmt_update_server">Сервер оновлення</string>
+    <string name="app_mgmt_update_server">Оновити сервер</string>
     <string name="app_mgmt_auto_sync">Автосинхронізація</string>
     <string name="app_mgmt_update_server_hint">Оновити URL-адресу сервера</string>
     <string name="preferences_text11">Перевірити наявність оновлень</string>
-    <string name="preferences_text12">Торкніться, щоб перевірити наявність оновлень програми зараз</string>
+    <string name="preferences_text12">Перевірити наявність оновлень програми зараз</string>
     <string name="preferences_text15">Завантаження плагіна</string>
     <string name="preferences_text16">Увімкнути завантаження плагінів під час запуску</string>
-    <string name="preferences_text17">Використовується для оновлення плагінів і пов\'язаних програм. Може використовуватися зі сховищем за замовчуванням або користувацьким репозиторієм у внутрішній мережі.</string>
+    <string name="preferences_text17">Використовується для оновлення плагінів і пов\'язаних програм. Можна використовувати із репозиторієм за замовчуванням або репозиторієм у внутрішній мережі.</string>
     <string name="preferences_text18">Встановіть програми зовнішньої підтримки</string>
     <string name="preferences_text19">Програма нічного бачення</string>
-    <string name="preferences_text20">Інтегрована функція нічного бачення</string>
+    <string name="preferences_text20">Інтегрований функціонал нічного бачення</string>
     <string name="preferences_text21">Програма TAK GeoCam</string>
     <string name="preferences_text22">Додаток для камери з геопросторовою підтримкою</string>
     <string name="preferences_text23">Додаток для моніторингу мережі</string>
     <string name="preferences_text24">Використовується для керування інтерфейсами радіомережі</string>
-    <string name="preferences_text25">Програма для послідовних моніторів</string>
+    <string name="preferences_text25">Serial Monitor Application</string>
     <string name="preferences_text26">Використовується для керування послідовними пристроями, такими як зовнішні GPS та далекоміри</string>
     <string name="preferences_text385">Сервер оновлення не встановлено</string>
     <string name="preferences_text386">Встановіть \'Update Server URL\' і повторіть спробу</string>
@@ -290,89 +290,89 @@
     <string name="preferences_text390">Програми для сканування</string>
     <string name="preferences_text391">Виберіть «Плагіни для завантаження».</string>
     <string name="preferences_text392">Завантаження плагіна</string>
-    <string name="preferences_text393">«Завантаження плагінів у»</string>
+    <string name="preferences_text393">"Завантаження плагінів у"</string>
     <string name="app_mgmt_text3">Доступні оновлення</string>
-    <string name="app_mgmt_product_repo">Кеш репо продукту</string>
-    <string name="app_mgmt_filter_All">всі</string>
+    <string name="app_mgmt_product_repo">Кеш репозиторію продукту</string>
+    <string name="app_mgmt_filter_All">Всі</string>
     <string name="app_mgmt_filter_installed">Встановлено</string>
-    <string name="app_mgmt_filter_Current">Поточний</string>
+    <string name="app_mgmt_filter_Current">Поточні</string>
     <string name="app_mgmt_filter_update_available">Доступне оновлення</string>
-    <string name="app_mgmt_filter_available">Доступний</string>
+    <string name="app_mgmt_filter_available">Доступно</string>
     <string name="app_mgmt_filter_Notinstalled">Не встановлено</string>
     <string name="app_mgmt_filter_loaded">Завантажено</string>
     <string name="app_mgmt_filter_NotLoaded">Не завантажено</string>
     <string name="app_mgmt_filter_NotCompatible">Несумісні</string>
     <string name="app_mgmt_filesystem">Програми локальної файлової системи</string>
-    <string name="app_mgmt_sideloaded">Завантажені збоку плагіни</string>
+    <string name="app_mgmt_sideloaded">Завантажені плагіни</string>
     <string name="app_mgmt_incompat_plugins">Несумісний плагін</string>
-    <string name="app_mgmt_incompat_message_short">На цьому пристрої знайдено несумісні плагіни. Хочете вирішити ці плагіни?</string>
+    <string name="app_mgmt_incompat_message_short">На цьому пристрої знайдено несумісні плагіни. Хочете виправити ці плагіни?</string>
     <string name="app_mgmt_incompat_message">На цьому пристрої знайдено несумісні плагіни. Під час вирішення, ті плагіни, які мають доступні оновлення, будуть оновлені. Якщо оновлення недоступні, цей плагін буде видалено. Крім того, ви можете вручну вирішити кожен плагін окремо.</string>
     <string name="app_mgmt_text2">Встановіть плагіни та інші програми</string>
-    <string name="app_mgmt_message_installed_current">встановлений і актуальний</string>
-    <string name="app_mgmt_message_installed_available">доступна для встановлення</string>
+    <string name="app_mgmt_message_installed_current">встановлено і актуально</string>
+    <string name="app_mgmt_message_installed_available">доступно для встановлення</string>
     <string name="app_mgmt_message_installed_notcompat">встановлено, а оновлення несумісне</string>
     <string name="app_mgmt_message_installed_updateavailable">встановлено та доступне оновлення</string>
     <string name="app_mgmt_message_notinstalled">не встановлено</string>
-    <string name="app_mgmt_message_notinstalled_available">доступна для встановлення</string>
+    <string name="app_mgmt_message_notinstalled_available">доступно для встановлення</string>
     <string name="app_mgmt_message_notinstalled_notcompat">не сумісний</string>
-    <string name="app_mgmt_message_notinstalled_updateavailable">доступний</string>
-    <string name="app_mgmt_message_loaded_current">є завантаженим і поточним</string>
+    <string name="app_mgmt_message_notinstalled_updateavailable">доступно</string>
+    <string name="app_mgmt_message_loaded_current">завантажені і актуальні</string>
     <string name="app_mgmt_message_loaded_available">завантажується</string>
     <string name="app_mgmt_message_loaded_notcompat">завантажено, а оновлення несумісне</string>
     <string name="app_mgmt_message_loaded_updateavailable">завантажено і доступне оновлення</string>
-    <string name="app_mgmt_message_notloaded_current">поточний, але не завантажений</string>
-    <string name="app_mgmt_message_notloaded_available">доступна для встановлення</string>
-    <string name="app_mgmt_message_notloaded_notcompat">доступне для локального завантаження, але оновлення несумісне</string>
-    <string name="app_mgmt_message_notloaded_updateavailable">доступне для локального завантаження, доступне оновлення</string>
+    <string name="app_mgmt_message_notloaded_current">актуально, але не завантажено</string>
+    <string name="app_mgmt_message_notloaded_available">доступно для встановлення</string>
+    <string name="app_mgmt_message_notloaded_notcompat">доступно для локального завантаження, але оновлення несумісне</string>
+    <string name="app_mgmt_message_notloaded_updateavailable">доступно для локального завантаження, доступне оновлення</string>
     <string name="app_mgmt_message_notcompat_current">не сумісний</string>
     <string name="app_mgmt_message_notcompat_available">несумісний, але доступний для встановлення</string>
     <string name="app_mgmt_message_notcompat_notcompat">не сумісний</string>
     <string name="app_mgmt_message_notcompat_updateavailable">несумісний, але доступне оновлення</string>
-    <string name="app_mgmt_multi_install">Встановіть вироби</string>
-    <string name="app_mgmt_multi_uninstall">Видаліть продукти</string>
+    <string name="app_mgmt_multi_install">Встановити продукти</string>
+    <string name="app_mgmt_multi_uninstall">Видалити продукти</string>
     <string name="app_mgmt_multi_load">Завантажити плагіни</string>
-    <string name="app_mgmt_multi_unload">Вивантажте плагіни</string>
-    <string name="app_mgmt_multi_resolveIncompat">Вирішити Несумісне</string>
+    <string name="app_mgmt_multi_unload">Вивантажити плагіни</string>
+    <string name="app_mgmt_multi_resolveIncompat">Виправити несумісні</string>
     <string name="app_mgmt_not_found_title">Не знайдено</string>
     <string name="app_mgmt_not_found">Пакет недоступний із налаштованих джерел, встановіть його вручну або зверніться до свого системного адміністратора</string>
     <string name="android_apk_file">Програма для Android</string>
-    <string name="app_mgmt_update_large_file_title">Завантажте великий продукт</string>
+    <string name="app_mgmt_update_large_file_title">Завантажити великий продукт</string>
     <string name="app_mgmt_update_large_file_message">Завантажити %1$s (%2$s) із сервера оновлення зараз?</string>
     <string name="app_mgmt_update_local_repo_title">Локальний каталог APK</string>
     <string name="app_mgmt_update_local_repo_mesage">Каталог на локальному пристрої, що містить файли .apk додатків/плагінів для завантаження</string>
 
     <!--Chat-->
-    <string name="preferences_text27">Відображати сповіщення щоразу, коли надходить нове повідомлення чату</string>
+    <string name="preferences_text27">Показувати сповіщення щоразу, коли надходить нове повідомлення чату</string>
     <string name="preferences_text28">Показати сповіщення</string>
-    <string name="preferences_text29">Вібруйте телефон щоразу, коли надходить нове повідомлення чату (потрібні сповіщення)</string>
-    <string name="preferences_text30">Відтворювати звук сповіщень за замовчуванням щоразу, коли надходить нове повідомлення чату (потрібні сповіщення)</string>
+    <string name="preferences_text29">Вмикати вібродзвінок щоразу, коли надходить нове повідомлення чату (потрібні сповіщення)</string>
+    <string name="preferences_text30">Відтворювати звук сповіщень за замовчуванням щоразу, коли надходить нове повідомлення чату (обов\'язкові сповіщення)</string>
     <string name="preferences_text31">Звукові сповіщення чату</string>
     <string name="preferences_text32">Записати всю історію чату у файл CSV на диск</string>
     <string name="preferences_text33">Експортувати історію чату</string>
     <string name="preferences_text34">Очистити історію чату</string>
-    <string name="preferences_text35">Чиста історія</string>
-    <string name="preferences_text36">Зберігати групи чату між перезапусками програми, навіть якщо група не походить із цього пристрою (потрібен перезапуск)</string>
+    <string name="preferences_text35">Очистити історію</string>
+    <string name="preferences_text36">Зберігати групи чату після перезапусків програми, навіть якщо група створена не з цього пристрою (перезапуск обов\'язковий)</string>
     <string name="preferences_text37">Зберігати групи чату</string>
     <string name="preferences_text38">Адреса чату</string>
-    <string name="preferences_text39">Адреса для надсилання повідомлень у чаті. Повинен відповідати іншим провайдерам GeoChat.</string>
-    <string name="preferences_text40">Котячий порт</string>
+    <string name="preferences_text39">Адреса для надсилання повідомлень у чаті. Повинна відповідати іншим провайдерам GeoChat.</string>
+    <string name="preferences_text40">Чат порт</string>
     <string name="preferences_text41">Порт для надсилання повідомлень чату. Повинен відповідати іншим провайдерам GeoChat.</string>
 
     <!--Control-->
     <string name="preferences_text42">Видаліть усі типи маркерів із карти, коли вони застаріли</string>
     <string name="preferences_text43">Керуйте даними зображення та відео</string>
-    <string name="preferences_text44">Увімкніть, щоб видалити всі неархівні типи з пристрою, коли досягнеться час їхнього застаріння. Елементи буде видалено відповідно до \'Час очищення застарілих елементів\' нижче</string>
+    <string name="preferences_text44">Увімкніть, щоб видалити всі неархівні типи з пристрою, коли вони застаріють. Елементи буде видалено відповідно до \'Час очищення застарілих елементів\' нижче</string>
     <string name="preferences_text45">Видаліть елементи з пристрою після того, як вони застаріли протягом багатьох хвилин</string>
     <string name="preferences_text46">Видаліть невідомі маркери, коли вони застаріли</string>
-    <string name="preferences_text47">Увімкніть, щоб видалити невідомі типи маркерів із пристрою, коли досягнеться час їх неактивності</string>
-    <string name="preferences_text48">Вийдіть із натисканням на спину</string>
-    <string name="preferences_text49">Вийдіть, коли натиснуто кнопку «Назад».</string>
-    <string name="preferences_text50">Запитайте перед виходом</string>
-    <string name="preferences_text51">З\'явиться діалогове вікно з проханням вийти, а не відразу</string>
-    <string name="preferences_text52">Дія для довгого натискання на карту</string>
+    <string name="preferences_text47">Увімкніть, щоб видалити невідомі типи маркерів із пристрою, коли закінчиться час їх неактивності</string>
+    <string name="preferences_text48">Вийти натисканням кнопки «Назад»</string>
+    <string name="preferences_text49">Вийти, коли натиснуто кнопку «Назад».</string>
+    <string name="preferences_text50">Перепитувати перед виходом</string>
+    <string name="preferences_text51">Показувати діалогове вікно перед виходом</string>
+    <string name="preferences_text52">Дія тривалого натискання на карту</string>
     <string name="preferences_text53">Визначає, що відбувається при тривалому натисканні на карту.</string>
-    <string name="preferences_text56">Двічі торкніться, щоб збільшити в 2 рази</string>
-    <string name="preferences_text57">Якщо поставлено прапорець, подвійне торкання карти (без перетягування) збільшить масштаб у 2 рази.</string>
+    <string name="preferences_text56">Торкніться двічі, щоб збільшити у 2 рази</string>
+    <string name="preferences_text57">Якщо позначено, подвійне торкання карти (без перетягування) збільшить масштаб у 2 рази.</string>
     <string name="preferences_text58">Увімкнути обертання шарів карти клавішами гучності</string>
     <string name="preferences_text59">Якщо позначено, клавіші гучності перемикають карти. В іншому випадку використовуйте режим гучності пристрою за замовчуванням</string>
     <string name="preferences_text60">Вимкніть KeyGuard</string>
@@ -380,42 +380,42 @@
     <string name="preferences_text62">Примусовий режим польоту</string>
     <string name="preferences_text63">Примусовий режим польоту під час запуску. Це підтримується лише на деяких старих телефонах і, ймовірно, не працюватиме на новіших пристроях з KitKat або новішими. Якщо пристрій не вимикає радіо або Wi-Fi під час запуску, він не підтримує цю функцію.</string>
     <string name="preferences_text64">Використовуйте максимальну кількість текстурних блоків</string>
-    <string name="preferences_text65">Зніміть прапорець, чи є проблеми з відтворенням із маркерами та мітками</string>
+    <string name="preferences_text65">Зніміть прапорець, якщо є проблеми з відтворенням маркерів та міток</string>
     <string name="preferences_text66">Увімкнути копії текстур</string>
     <string name="preferences_text67">Зніміть прапорець, якщо програма виходить з ладу під час зменшення масштабу карт</string>
     <string name="preferences_text68">Увімкнути файл Logcat</string>
     <string name="preferences_text69">Якщо встановлено прапорець, файл журналу фіксуватиме вихідні дані журналу Android (logcat) під час роботи програми. Файл журналу створюється в каталозі підтримки програми, називається logcat.txt і перезаписується після кожного запуску програми.</string>
     <string name="preferences_text70">Увімкнути лише помилки Logcat</string>
     <string name="preferences_text71">Якщо поставлено прапорець, файл журналу фіксуватиме діагностичну інформацію рівня помилок лише під час роботи програми</string>
-    <string name="preferences_text701">Завантажте журнали налагодження</string>
-    <string name="preferences_text701s">Якщо позначено, журнали налагодження (Logcat і мережевий трафік) будуть завантажені на сервер TAK</string>
+    <string name="preferences_text701">Завантажте логи</string>
+    <string name="preferences_text701s">Якщо позначено, логи (Logcat і мережевий трафік) будуть завантажені на сервер TAK</string>
 
     <!--Action Bar-->
-    <string name="preferences_text72">Колір значка панелі інструментів</string>
-    <string name="preferences_text73">Встановіть колір піктограм панелі інструментів. Примітка. Деякі значки плагінів можуть погано поєднуватися з нанесеним кольором.</string>
-    <string name="preferences_text74">Колір тла панелі інструментів</string>
+    <string name="preferences_text72">Колір іконки панелі інструментів</string>
+    <string name="preferences_text73">Встановіть колір піктограм панелі інструментів. Примітка. Деякі значки плагінів можуть погано поєднуватися із вибраним кольором.</string>
+    <string name="preferences_text74">Колір фону панелі інструментів</string>
     <string name="preferences_text75">Встановіть колір фону панелі інструментів. Примітка: колір фону буде прозорим.</string>
     <string name="preferences_text76">Скинути кольори панелі інструментів до стандартних</string>
-    <string name="preferences_text77">Скидає піктограму панелі інструментів і колір фону до налаштувань за замовчуванням.</string>
+    <string name="preferences_text77">Скинути кольори піктограми панелі інструментів і фону до налаштувань за замовчуванням.</string>
     <string name="preferences_text404">Налаштування кольору панелі інструментів</string>
     <string name="preferences_text405">Ви впевнені, що хочете скинути всі кольори панелі інструментів до стандартних?</string>
-    <string name="preferences_text406">Вибраний колір може погано відображатися на темних картах. Все одно продовжувати?</string>
+    <string name="preferences_text406">Вибраний колір може погано відображатися на темних картах. Все одно продовжити?</string>
     <string name="preferences_text407">Використовуйте цей колір</string>
     <string name="preferences_text408">Використовуйте повзунки RGB, щоб вибрати колір.</string>
 
     <!--Device-->
     <string name="preferences_text78">Виберіть свою команду</string>
     <string name="preferences_text79">Моя команда</string>
-    <string name="preferences_text80">Визначає роль цього пристрою</string>
+    <string name="preferences_text80">Визначити роль цього пристрою</string>
     <string name="preferences_text81">Моя роль</string>
     <string name="preferences_text82" translatable="false">Team Member</string>
-    <string name="preferences_text83">Визначає тип, яким світ буде бачити цей пристрій</string>
+    <string name="preferences_text83">Визначити тип пристрою</string>
     <string name="preferences_text84">Мій тип дисплея</string>
-    <string name="preferences_text85">Використовуйте час GPS</string>
-    <string name="preferences_text86">Якщо значення true, пристрій використовуватиме час GPS, якщо він доступний.</string>
+    <string name="preferences_text85">Використати час GPS</string>
+    <string name="preferences_text86">Коли значення true, пристрій використовуватиме час GPS, якщо він доступний.</string>
     <string name="preferences_text87">Налаштування контактів</string>
     <string name="preferences_text88">Опублікувати номер телефону</string>
-    <string name="preferences_text89">Відображати номер телефону (якщо доступний) іншим користувачам і дозволяти прямі телефонні дзвінки та SMS-повідомлення (якщо підтримується) на обох пристроях</string>
+    <string name="preferences_text89">Відображати номер телефону (якщо доступний) іншим користувачам і дозволяти прямі телефонні дзвінки та SMS-повідомлення (якщо підтримуються) на обох пристроях</string>
     <string name="preferences_text90">Визначає, чи публікувати VoIP-адресу, а також налаштовувати автоматично чи вручну</string>
     <string name="preferences_text91">Опублікувати номер VoIP</string>
     <string name="preferences_text92">Номер VoIP</string>
@@ -438,107 +438,107 @@
     <string name="preferences_text98">Налаштування звітності</string>
     <string name="preferences_text99">Надіслати місцезнаходження через мережу</string>
     <string name="preferences_text469">Налаштуйте, як цей пристрій повідомляє про власне положення</string>
-    <string name="preferences_text465">"(Динамічний)"</string>
-    <string name="preferences_text466">"(постійна)"</string>
+    <string name="preferences_text465">"(Динамічна)"</string>
+    <string name="preferences_text466">"(Постійна)"</string>
     <string name="preferences_text101">Стратегія звітності</string>
-    <string name="preferences_text102">Динамічний</string>
-    <string name="preferences_text103">Стабільна швидкість динамічного звітування (ненадійна)</string>
-    <string name="preferences_text105">Мінімальна швидкість динамічного звітування (ненадійно)</string>
-    <string name="preferences_text107">Максимальна швидкість динамічного звітування (ненадійно)</string>
-    <string name="preferences_text109">Стаційна швидкість динамічної звітності (надійна)</string>
-    <string name="preferences_text111">Мінімальна швидкість динамічного звітування (надійна)</string>
-    <string name="preferences_text113">Максимальна швидкість динамічного звітування (надійна)</string>
+    <string name="preferences_text102">Динамічна</string>
+    <string name="preferences_text103">Стабільна частота динамічного звітування (ненадійна)</string>
+    <string name="preferences_text105">Мінімальна частота динамічного звітування (ненадійна)</string>
+    <string name="preferences_text107">Максимальна частота динамічного звітування (ненадійна)</string>
+    <string name="preferences_text109">Стабільна частота динамічного звітування (надійна)</string>
+    <string name="preferences_text111">Мінімальна частота динамічного звітування (надійна)</string>
+    <string name="preferences_text113">Максимальна частота динамічного звітування (ненадійна)</string>
     <string name="preferences_text115">Постійна частота звітності (ненадійна)</string>
     <string name="preferences_text116">Постійний інтервал між повідомленнями про власний SA в секундах для ненадійних протоколів (наприклад, багатоадресної передачі)</string>
     <string name="preferences_text117">Постійна швидкість звітності (надійна)</string>
-    <string name="preferences_text119">Повідомте про місцезнаходження, перш ніж отримати виправлення розташування</string>
-    <string name="preferences_text120">Якщо вірно, повідомте про повідомлення SA з (шир=0,лон=0) перед виправленням GPS або ручним розміщенням самомаркера.</string>
+    <string name="preferences_text119">Повідомити про місцезнаходження, перш ніж отримати корекцію розташування</string>
+    <string name="preferences_text120">Якщо вірно, повідомте SA координати (широта=0,довгота=0) або перед виправленням GPS, або перед розміщенням маркера свого місцезнаходження вручну.</string>
 
 
     <!--Display-->
-    <string name="preferences_text128">Налаштуйте маркер місцезнаходження за кольором або розміром</string>
+    <string name="preferences_text128">Налаштуйте маркер вашого місцезнаходження за кольором або розміром</string>
     <string name="preferences_text129">Моє місцезнаходження Колір / Розмір</string>
     <string name="preferences_text130">Налаштуйте піктограму панелі інструментів і кольори фону</string>
     <string name="preferences_text131">Налаштування панелі інструментів</string>
     <string name="preferences_text132">Доступ до параметрів, пов\'язаних із відображенням за замовчуванням для одиниць вимірювання, кутів і координат.</string>
     <string name="preferences_text133">Увімкнути відображення масштабу карти</string>
-    <string name="preferences_text134">Вмикає візуальний масштаб карти на карті</string>
+    <string name="preferences_text134">Увімкнути візуальний масштаб карти на карті</string>
     <string name="preferences_text135">Увімкнути округлення масштабу карти</string>
     <string name="preferences_text136">Відрегулюйте масштабну лінію до найближчого ступеня 10</string>
-    <string name="preferences_text137">Увімкнути режим великого тексту</string>
-    <string name="preferences_text138">Вмикає велику панель інструментів (верхнє меню), значки та текст. Еквівалент увімкнення всіх 3-х: \'Велика панель інструментів\', \'Розмір значка та тексту\' та \'Розмір мітки за замовчуванням\'</string>
+    <string name="preferences_text137">Увімкнути великий текст</string>
+    <string name="preferences_text138">Увімкнути велику панель інструментів (верхнє меню), значки та текст. Еквівалент увімкнення всіх 3-х: \'Велика панель інструментів\', \'Розмір піктограми та тексту\' і \'Розмір назв за замовчуванням\'</string>
     <string name="preferences_text139">Увімкнути велику панель інструментів</string>
-    <string name="preferences_text140">Вмикає кнопки більшого розміру на панелі інструментів (верхнє меню)</string>
-    <string name="preferences_text141">Розмір значка та тексту</string>
+    <string name="preferences_text140">Увімкнути кнопки більшого розміру на панелі інструментів (верхнє меню)</string>
+    <string name="preferences_text141">Розмір піктограми та тексту</string>
     <string name="preferences_text142">Відносне масштабування, яке застосовується до піктограм і розміру тексту</string>
-    <string name="preferences_text143">Розмір етикетки за замовчуванням</string>
-    <string name="preferences_text144">Розмір шрифту за замовчуванням, який використовується для позначення об\'єктів на карті. Для цього буде потрібно перезапуск, щоб усі відтворені об\'єкти могли використовувати новий розмір шрифту.</string>
+    <string name="preferences_text143">Розмір підказки за замовчуванням</string>
+    <string name="preferences_text144">Розмір шрифту за замовчуванням, який використовується для позначення об\'єктів на карті. Для цього необхідний перезапуск, щоб усі об\'єкти могли використовувати новий розмір шрифту.</string>
     <string name="preferences_text145">Дозволяє затемнювати/освітлювати всі елементи карти за допомогою інструмента «Яскравість».</string>
-    <string name="preferences_text146">Потемніння/освітлення накладання карти</string>
-    <string name="preferences_text147">Налаштуйте параметри відображення операційної системи, включаючи час очікування екрана</string>
-    <string name="preferences_text148">Керуйте поведінкою та виглядом ліній сітки</string>
-    <string name="preferences_text149">Керуйте поведінкою та зовнішнім виглядом контуру шару</string>
-    <string name="preferences_text150">Керуйте параметрами закадрового індикатора</string>
-    <string name="preferences_text151">Стилі фігур за замовчуванням встановлюються під час імпорту форматів даних, які не підтримують стилі (наприклад, Shapefile, GPX)</string>
+    <string name="preferences_text146">Затемнення/освітлення накладання карти</string>
+    <string name="preferences_text147">Налаштуйте параметри відображення операційної системи, включно із часом очікування екрана</string>
+    <string name="preferences_text148">Управління поведінкою та виглядом ліній сітки</string>
+    <string name="preferences_text149">Управління поведінкою та зовнішнім виглядом контуру шару</string>
+    <string name="preferences_text150">Управління параметрами закадрового індикатора</string>
+    <string name="preferences_text151">Стилі фігур за замовчуванням встановлюються під час імпорту форматів даних, які не підтримують стилізацію (наприклад, Shapefile, GPX)</string>
     <string name="preferences_text152">Ширина/висота диспетчера накладання</string>
     <string name="preferences_text153">Налаштуйте ширину/висоту вікна диспетчера накладання</string>
     <string name="preferences_text154">Примусова яскравість програми</string>
-    <string name="preferences_text155">Додаткова яскравість для програми, яка вручну перевизначає автоматичну яскравість Android</string>
-    <string name="preferences_text156">Вимкніть заставку/блокування екрана</string>
+    <string name="preferences_text155">Збільшення яскравості програми, яка вручну перевизначає автоматичну яскравість Android</string>
+    <string name="preferences_text156">Вимкнути заставку/блокування екрана</string>
     <string name="preferences_text157">Якщо позначено, екран завжди залишатиметься ввімкненим під час роботи програми</string>
-    <string name="preferences_text158">Вимкніть підсвічування програмних клавіш</string>
-    <string name="preferences_text159">Якщо позначено, підсвічування програмних клавіш буде вимкнено на платформах, які підтримують це. Якщо цей параметр не підтримується, нічого не робитиме.</string>
-    <string name="preferences_text160">Зворотна ландшафтна орієнтація</string>
-    <string name="preferences_text161">Переверніть альбомну орієнтацію</string>
-    <string name="preferences_text162">Скоротіть довгі маркерні етикетки</string>
-    <string name="preferences_text163">Мітки маркерів, що прокручуються</string>
-    <string name="preferences_text164">Показати мітки маркерів</string>
-    <string name="preferences_text165">Відображати мітки в розділі «Маркери».</string>
-    <string name="preferences_text166">Відображати сповіщення для інших користувачів</string>
-    <string name="preferences_text167">Відображати сповіщення Android під час отримання звіту SA від інших користувачів</string>
-    <string name="preferences_text168">Час сповіщень про згасання</string>
-    <string name="preferences_text169">Час за умовчанням, протягом якого тимчасове сповіщення залишається на панелі сповіщень, перш ніж буде автоматично видалено</string>
-    <string name="preferences_text170">Назва вкладки «Зображення».</string>
-    <string name="preferences_text171">Виберіть Зображення або Карти</string>
-    <string name="preference_rab_show_eta_title">Відображення приблизного прибутку на етикетках діапазону та підшипників</string>
-    <string name="preference_rab_show_eta_summary"> Якщо поставлено прапорець, буде зроблено спробу обчислити ETA на основі вашого діапазону та поточної швидкості. Якщо швидкість не може бути виявлена, її можна ввести вручну через дані про діапазон і пеленг</string>
+    <string name="preferences_text158">Вимкнути підсвітку клавіатури</string>
+    <string name="preferences_text159">Якщо позначено, підсвітку клавіатури буде вимкнено на платформах, які це підтримують. Якщо цей параметр не підтримується, зміни не застосуються.</string>
+    <string name="preferences_text160">Повернути альбомну орієнтацію</string>
+    <string name="preferences_text161">Дзеркальна альбомна орієнтація</string>
+    <string name="preferences_text162">Скоротити довгі назви маркерів</string>
+    <string name="preferences_text163">Скролити назви маркерів</string>
+    <string name="preferences_text164">Показати назви маркерів</string>
+    <string name="preferences_text165">Показувати назви під маркерами</string>
+    <string name="preferences_text166">Показувати сповіщення для інших користувачів</string>
+    <string name="preferences_text167">Показувати сповіщення Android про отримання звіту SA від інших користувачів</string>
+    <string name="preferences_text168">Час згасання сповіщень</string>
+    <string name="preferences_text169">Час за замовчуванням, протягом якого тимчасове сповіщення залишатиметься на панелі, перш ніж буде автоматично видаленим</string>
+    <string name="preferences_text170">Назва вкладки зображень</string>
+    <string name="preferences_text171">Виберіть зображення або карти</string>
+    <string name="preference_rab_show_eta_title">Показати ETA у назвах діапазону та азимуту</string>
+    <string name="preference_rab_show_eta_summary"> Якщо позначено, буде виконано спробу обчислити ETA на основі вказаного діапазону швидкості та поточної швидкості. Якщо швидкість визначити неможливо, її можна вказати вручну у розділі Діапазон і азимут</string>
 
     <!--Elevation-->
-    <string name="preferences_text174">Значення накладання теплової карти висот (HSV) у відсотках (0—100)</string>
+    <string name="preferences_text174">Значення (HSV) накладання теплової карти висот у відсотках (0—100)</string>
 
     <!--Geocoder-->
     <string name="preferences_text175">Увімкнути пошук адреси (геокодер)</string>
-    <string name="preferences_text176">Увімкніть, щоб додати вкладку Адреса для введення координат.</string>
-    <string name="preferences_text177">Використовуйте Android Geocoder</string>
-    <string name="preferences_text178">Увімкніть використання вбудованого сервісу Geocoder.</string>
-    <string name="preferences_text179">Постачальник адреси</string>
-    <string name="preferences_text180">Виберіть постачальника адреси.</string>
-    <string name="preferences_text181">Тестовий постачальник адрес</string>
+    <string name="preferences_text176">Увімкнути, щоб додати вкладку адреси для введення координат.</string>
+    <string name="preferences_text177">Використовувати Android Geocoder</string>
+    <string name="preferences_text178">Увімкнути використання вбудованого сервісу Geocoder.</string>
+    <string name="preferences_text179">Провайдер адрес</string>
+    <string name="preferences_text180">Виберіть провайдера адрес.</string>
+    <string name="preferences_text181">Тестовий провайдер адрес</string>
     <string name="preferences_text383">Адресна служба</string>
     <string name="preferences_text384">Тестування підключення</string>
-    <string name="preferences_text394">Немає доступних плагінів для завантаження. Встановіть плагін apks і спробуйте ще раз.</string>
-    <string name="preferences_text395">Звернувся до сервера, але сервер не повернув результати.</string>
+    <string name="preferences_text394">Немає доступних для завантаження плагінів. Установіть плагін apks і спробуйте ще раз.</string>
+    <string name="preferences_text395">Підключено до сервера, але сервер не повернув результатів.</string>
     <string name="preferences_text396">Перевірте підключення до мережі, не вдається підключитися до сервера.</string>
     <string name="preferences_text397">Підключення до служби пошуку адреси %s було успішним.</string>
-    <string name="preferences_text398">Звернувся до сервера, але сервер не зміг виконати зворотний пошук.</string>
-    <string name="preferences_text399">Підключено до служби, але службі не вдалося виконати зворотний пошук.</string>
-    <string name="preferences_text400">Підключено до служби, але служба не повернула результати.</string>
+    <string name="preferences_text398">Підключено до сервера, але сервер не зміг виконати зворотний пошук.</string>
+    <string name="preferences_text399">Підключено до сервісу, але не вдалося виконати зворотний пошук.</string>
+    <string name="preferences_text400">Підключено до сервісу, але сервіс не повернув результатів.</string>
     <string name="preferences_text401">Послуга геокодера недоступна.</string>
     <string name="preferences_text402">Не вдалося підключитися до служби пошуку адрес %1$s.\n\n%2$s</string>
 
     <!--Gridline-->
     <string name="preferences_text182">Показати за замовчуванням</string>
-    <string name="preferences_text183">Лінії сітки за замовчуванням, які відображаються під час запуску</string>
+    <string name="preferences_text183">Лінії сітки за замовчуванням під час запуску</string>
 
     <!--Import Style-->
     <string name="preferences_text184">Колір контуру за замовчуванням для імпортованих фігур</string>
-    <string name="preferences_text185">Імпортований колір контуру форми</string>
-    <string name="preferences_text186">Імпортована ширина лінії</string>
+    <string name="preferences_text185">Колір контуру імпортованої фігури</string>
+    <string name="preferences_text186">Ширина імпортованої лінії</string>
     <string name="preferences_text187">Ширина лінії за замовчуванням для імпортованих фігур</string>
 
     <!--ISRV-->
     <string name="preferences_text189">Конфігурація внутрішньої мережі</string>
-    <string name="preferences_text188">Установіть прапорець, щоб увімкнути DHCP</string>
+    <string name="preferences_text188">Позначити, щоб увімкнути DHCP</string>
     <string name="preferences_text190">IP-адреса</string>
     <string name="preferences_text191">Маска підмережі</string>
     <string name="preferences_text192">Маска підмережі</string>
@@ -548,28 +548,28 @@
 
     <!--Main-->
     <string name="preferences_text1981">Налаштуйте загальні параметри TAK</string>
-    <string name="preferences_text198">Налаштуйте, як цей пристрій відображатиметься в мережі</string>
-    <string name="preferences_text199">Доступ до загальних налаштувань дисплея, таких як розмір шрифту, масштабування піктограм, яскравість та підсвічування програмних клавіш.</string>
+    <string name="preferences_text198">Налаштуйте, як цей пристрій відображатиметься у мережі</string>
+    <string name="preferences_text199">Доступ до загальних налаштувань дисплея, таких як розмір шрифту і піктограм, яскравість та підсвічування програмних кнопок.</string>
     <string name="preferences_text200">Доступ до мережевих параметрів, таких як ідентифікаційна інформація, параметри розташування та конфігурація мережі</string>
     <string name="preferences_text201">Параметри доступу, пов\'язані з інструментами та плагінами</string>
     <string name="preferences_text202">Налаштуйте параметри керування</string>
     <string name="preferences_text2020">Налаштуйте додаткові параметри</string>
     <string name="preferences_text203">Підтримка &amp; Програмна документація</string>
-    <string name="preferences_text414">"Plugin API: "</string>
-    <string name="preferences_text415">Переглянути ліцензійну угоду</string>
+    <string name="preferences_text414">"Плагін API: "</string>
+    <string name="preferences_text415">Переглянути ліцензію</string>
 
     <!--Media-->
-    <string name="preferences_text204">Очистити вкладені маркери (наприклад, зображення)</string>
+    <string name="preferences_text204">Очистити вкладення маркера (наприклад, зображення)</string>
     <string name="preferences_text205">Очистити вкладені файли</string>
     <string name="preferences_text206">Очистити всі дані програми на цьому пристрої</string>
-    <string name="preferences_text207">Очистіть всі дані програми під час вимкнення</string>
+    <string name="preferences_text207">Очистити всі дані програми під час вимкнення</string>
     <string name="preferences_text208">Очистити вміст після вимкнення</string>
     <string name="preferences_text209">Тайм-аут безпечного видалення</string>
-    <string name="preferences_text210">Кількість секунд для очікування завершення видалення перед примусовим вимкненням</string>
-    <string name="preferences_text211">Примусове очищення та повторне сканування даних шару</string>
-    <string name="preferences_text212">Примусове скидання кешу рівня</string>
-    <string name="prefs_use_klv_elevation">Віддавайте перевагу KLV Frame Center Elevation</string>
-    <string name="prefs_use_klv_elevation_sum">Використовуйте дані про висоту Frame Center, надані в KLV, замість локальних даних про висоту.</string>
+    <string name="preferences_text210">Кількість секунд очікування завершення видалення перед примусовим вимкненням</string>
+    <string name="preferences_text211">Примусове очищення та повторне сканування даних накладання</string>
+    <string name="preferences_text212">Примусове скидання кешу накладання</string>
+    <string name="prefs_use_klv_elevation">Надати перевагу KLV Frame Center Elevation</string>
+    <string name="prefs_use_klv_elevation_sum">Використовуйте дані Frame Center Elevation, надані в KLV, замість локальних даних про висоту.</string>
 
     <!--Data Package-->
     <string name="preferences_text213">Увімкнути спільний доступ до файлів</string>
@@ -581,12 +581,12 @@
     <string name="preferences_text219">Кількість спроб завантажити файл із віддаленого сервера</string>
     <string name="preferences_text220">Порт сервера</string>
     <string name="preferences_text221">Порт сервера обміну файлами</string>
-    <string name="preferences_text220a">Порт безпечного сервера</string>
+    <string name="preferences_text220a">Порт захищеного сервера</string>
     <string name="preferences_text221a">Захищений порт сервера обміну файлами</string>
     <string name="preferences_text222">Час очікування підключення для передачі файлів</string>
-    <string name="preferences_text223">Повторіть спробу передачі, якщо протягом цього періоду (секунд) не виявлено з\'єднання</string>
+    <string name="preferences_text223">Повторіть спробу передачі, якщо протягом цього періоду не встановлено з\'єднання (сек.)</string>
     <string name="preferences_text224">Час очікування помилки передачі файлів</string>
-    <string name="preferences_text225">Повторіть спробу передачі, якщо протягом цього періоду (сек.) прогрес не виявлено</string>
+    <string name="preferences_text225">Повторіть спробу передачі, якщо протягом цього періоду немає прогресу (сек.)</string>
     <string name="pref_mp_all_servers">Використовувати всі сервери</string>
     <string name="pref_mp_all_servers_desc">Дозволяє публікувати пакет даних на будь-якому налаштованому сервері TAK незалежно від стану підключення.</string>
 
