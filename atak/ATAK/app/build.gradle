@@ -238,6 +238,30 @@ def getCurrentFlavor() {
 }
 
 android {
+    packagingOptions{
+        exclude 'lib/x86/libassimp.so'
+        exclude 'lib/x86/libatakjni.so'
+        exclude 'lib/x86/libavcodecpgsc.so'
+        exclude 'lib/x86/libavdevicepgsc.so'
+        exclude 'lib/x86/libavformatpgsc.so'
+        exclude 'lib/x86/libavutilpgsc.so'
+        exclude 'lib/x86/libavvideopgsc.so'
+        exclude 'lib/x86/libcommoncommojni.so'
+        exclude 'lib/x86/libgdal.so'
+        exclude 'lib/x86/libgdalalljni.so'
+        exclude 'lib/x86/libgnustl_shared.so'
+        exclude 'lib/x86/libjassimp.so'
+        exclude 'lib/x86/libjnicrash.so'
+        exclude 'lib/x86/libltidsdk.so'
+        exclude 'lib/x86/libogdi.so'
+        exclude 'lib/x86/libpgscmedia.so'
+        exclude 'lib/x86/libpgscmediajni.so'
+        exclude 'lib/x86/libpgscmobilevid.so'
+        exclude 'lib/x86/libspatialite.so'
+        exclude 'lib/x86/libswscalepgsc.so'
+        exclude 'lib/x86/libtakengine.so'
+    }
+
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     useLibrary 'org.apache.http.legacy'
