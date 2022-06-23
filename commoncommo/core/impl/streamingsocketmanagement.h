@@ -62,7 +62,7 @@ public:
                                                  const char *username,
                                                  const char *password,
                                                  CommoResult *resultCode);
-    CommoResult removeStreamingInterface(StreamingNetInterface *iface);
+    CommoResult removeStreamingInterface(std::string *endpoint, StreamingNetInterface *iface);
 
     // Configures the given openssl context with ssl parameters associated with
     // the stream identifies by streamingEndpoint.  Throws if the endpoint
@@ -189,6 +189,11 @@ private:
 
         // The ca certs, in order
         STACK_OF(X509) *caCerts;
+        
+        // Flag to track if fatal SSL-level error was seen. Controls
+        // how teardown of this context is performed, particularly
+        // if SSL_shutdown should be attempted
+        bool fatallyErrored;
 
         SSLConnectionContext(const std::string &uid,
                 SSL_CTX *sslCtx, const uint8_t *clientCert,

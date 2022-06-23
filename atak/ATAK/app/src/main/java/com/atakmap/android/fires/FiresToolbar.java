@@ -123,6 +123,7 @@ public class FiresToolbar implements
             _toolbarView = (ActionBarView) inflater.inflate(
                     R.layout.cas_toolbar, _mapView,
                     false);
+            _toolbarView.setPosition(ActionBarView.TOP_LEFT);
             ImageButton buttonSPI1 = _toolbarView
                     .findViewById(R.id.buttonSPI1);
             buttonSPI1.setOnTouchListener(this);
@@ -215,6 +216,9 @@ public class FiresToolbar implements
     @Override
     public void onSharedPreferenceChanged(
             final SharedPreferences prefs, final String key) {
+
+        if (key == null) return;
+
         FlavorProvider fp = SystemComponentLoader.getFlavorProvider();
         if (key.equals("legacyFiresToolbarMode")) {
             if (prefs.getBoolean(key, false)) {

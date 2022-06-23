@@ -145,6 +145,11 @@ public abstract class AtakPreferenceFragment extends PreferenceFragment {
     }
 
     private void processPreference(final Preference p) {
+
+        if (_mainControlPrefs == null)
+            _mainControlPrefs = PreferenceManager
+                    .getDefaultSharedPreferences(getActivity());
+
         if (p == null)
             return;
         if (p instanceof PreferenceCategory) {
@@ -198,16 +203,18 @@ public abstract class AtakPreferenceFragment extends PreferenceFragment {
                 }
             }
 
-
             String dependsOnKey = p.getDependency();
             if (dependsOnKey != null) {
-                final String dependsHidePref = "hidePreferenceItem_" + dependsOnKey;
+                final String dependsHidePref = "hidePreferenceItem_"
+                        + dependsOnKey;
                 if (_mainControlPrefs.getBoolean(dependsHidePref, false)) {
                     //Log.d(TAG, "removing dependency: " + key);
                     try {
                         removePreference(p);
                     } catch (Exception e) {
-                        Log.e(TAG, "error occurred hiding dependent preference: " + key);
+                        Log.e(TAG,
+                                "error occurred hiding dependent preference: "
+                                        + key);
                     }
                 }
             }
@@ -463,6 +470,9 @@ public abstract class AtakPreferenceFragment extends PreferenceFragment {
             @Override
             public void onSharedPreferenceChanged(SharedPreferences prefs,
                     String key) {
+
+                if (key == null) return;
+
                 if (key.compareToIgnoreCase("atakDisableKeyGuard") == 0) {
                     checkKeyGuard(activity);
                 } else if (key.compareToIgnoreCase("atakScreenLock") == 0) {
@@ -618,7 +628,8 @@ public abstract class AtakPreferenceFragment extends PreferenceFragment {
                 context.getString(summaryResourceId),
                 parentSummary,
                 context.getDrawable(drawableResourceId),
-                Collections.singletonList(context.getString(summaryResourceId)));
+                Collections
+                        .singletonList(context.getString(summaryResourceId)));
 
         retval.add(parent);
         try {

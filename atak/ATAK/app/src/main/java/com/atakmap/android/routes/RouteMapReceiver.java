@@ -159,7 +159,6 @@ public class RouteMapReceiver extends BroadcastReceiver implements
 
     // Reroute pieces
     private MarkerIconWidget rerouteButton;
-    private MarkerIconWidget.OnClickListener rerouteButtonListener;
     private Icon rerouteActiveIcon;
     private Icon rerouteInactiveIcon;
 
@@ -267,6 +266,9 @@ public class RouteMapReceiver extends BroadcastReceiver implements
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
+
+        if (key == null) return;
+
         if (isNavigating() && key.equals("route_billboard_enabled"))
             _billboardLayer.setVisible(prefs.getBoolean(key, true));
     }

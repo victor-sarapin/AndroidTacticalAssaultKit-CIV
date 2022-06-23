@@ -170,6 +170,7 @@ public class SelfCoordOverlayUpdater extends CotStreamListener implements
                 "rootLayoutWidget");
         LinearLayoutWidget brLayout = root
                 .getLayout(RootLayoutWidget.BOTTOM_RIGHT);
+
         _format = MapView.getTextFormat(Typeface.DEFAULT, 2);
 
         // Message to display when self marker is not set and there's no GPS
@@ -193,7 +194,7 @@ public class SelfCoordOverlayUpdater extends CotStreamListener implements
         _connectedButtonWidget = new MarkerIconWidget();
         _connectedButtonWidget.setName("Connection Icon");
         _connectedButtonWidget.addOnClickListener(this);
-        hTray.addWidgetAt(0, _connectedButtonWidget);
+        hTray.addChildWidgetAt(0, _connectedButtonWidget);
 
         _self = ATAKUtilities.findSelf(mapView);
 
@@ -264,6 +265,8 @@ public class SelfCoordOverlayUpdater extends CotStreamListener implements
     public void onSharedPreferenceChanged(
             final SharedPreferences sp,
             final String key) {
+
+        if (key == null) return;
 
         switch (key) {
             case "show_self_coordinate_overlay":

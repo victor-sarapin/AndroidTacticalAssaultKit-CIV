@@ -18,6 +18,7 @@ import android.preference.PreferenceCategory;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 
+import com.atakmap.android.cot.LRFPreferenceFragment;
 import com.atakmap.os.FileObserver;
 import com.atakmap.android.gui.PanEditTextPreference;
 import com.atakmap.android.ipc.AtakBroadcast;
@@ -110,6 +111,17 @@ public class DevicePreferenceFragment extends AtakPreferenceFragment {
                             }
                         });
 
+        Preference lrfSettings = findPreference("lrfSettings");
+        lrfSettings
+                .setOnPreferenceClickListener(
+                        new Preference.OnPreferenceClickListener() {
+                            @Override
+                            public boolean onPreferenceClick(Preference pref) {
+                                showScreen(new LRFPreferenceFragment());
+                                return true;
+                            }
+                        });
+
         useWRCallsign = (CheckBoxPreference) findPreference(
                 "locationUseWRCallsign");
         final SharedPreferences sp = PreferenceManager
@@ -126,6 +138,9 @@ public class DevicePreferenceFragment extends AtakPreferenceFragment {
             @Override
             public void onSharedPreferenceChanged(
                     SharedPreferences sharedPreferences, String key) {
+
+                if (key == null) return;
+
                 switch (key) {
                     case "locationTeam":
                     case "atakRoleType":

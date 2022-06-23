@@ -56,7 +56,7 @@ public class WaveRelayControlLite
 
     private final static Object lock = new Object();
 
-    private String TAG = "WaveRelayControlLite";
+    private final String TAG = "WaveRelayControlLite";
 
     private final SharedPreferences prefs;
 
@@ -94,6 +94,9 @@ public class WaveRelayControlLite
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
             String key) {
+
+        if (key == null) return;
+
         if (key.equals("waveRelayRedirect")) {
             boolean wrRedirect = sharedPreferences.getBoolean(key, false);
             if (wrRedirect)

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.graphics.Point;
 import android.graphics.PointF;
 import android.graphics.RectF;
 import android.preference.PreferenceManager;
@@ -67,6 +66,7 @@ public class OffscreenIndicatorController extends AbstractLayer implements
                     @Override
                     public void onSharedPreferenceChanged(
                             SharedPreferences sharedPreferences, String key) {
+                        if (key == null) return;
 
                         switch (key) {
                             case "toggle_offscreen_indicators":
@@ -290,15 +290,14 @@ public class OffscreenIndicatorController extends AbstractLayer implements
         if (!enabled)
             return;
 
-        Point point = event.getPoint();
+        PointF point = event.getPointF();
         // if the touch occurred on the region inside of where the offscreen
         // indicator halos are rendered, ignore
         final float borderSize = (HALO_BORDER_SIZE + HALO_BITMAP_SIZE);
-        final int actionBarHeight = _mapView.getActionBarHeight();
         if ((point.x > borderSize
                 && point.x < (_mapView.getWidth() - borderSize))
                 &&
-                (point.y > (actionBarHeight + borderSize) &&
+                (point.y > borderSize &&
                         point.y < (_mapView.getHeight() - borderSize))) {
 
             return;
@@ -306,8 +305,7 @@ public class OffscreenIndicatorController extends AbstractLayer implements
 
         GeoPointMetaData geo = _mapView.inverse(point.x, point.y,
                 MapView.InverseMode.RayCast);
-        final RectF haloRect = new RectF(HALO_BORDER_SIZE,
-                actionBarHeight + HALO_BORDER_SIZE,
+        final RectF haloRect = new RectF(HALO_BORDER_SIZE, HALO_BORDER_SIZE,
                 _mapView.getWidth() - HALO_BORDER_SIZE,
                 _mapView.getHeight() - HALO_BORDER_SIZE);
 

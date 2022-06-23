@@ -77,6 +77,9 @@ public class ElevationOverlaysMapComponent extends AbstractMapComponent
         @Override
         public void onSharedPreferenceChanged(
                 SharedPreferences sharedPreferences, String key) {
+
+            if (key == null) return;
+
             if (key.equals(PREFERENCE_COLOR_SATURATION_KEY)
                     || key.equals(PREFERENCE_COLOR_VALUE_KEY)
                     || key.equals(PREFERENCE_COLOR_INTENSITY_KEY)
@@ -139,7 +142,7 @@ public class ElevationOverlaysMapComponent extends AbstractMapComponent
         _mapView.addOnMapViewResizedListener(this);
         onMapViewResized(_mapView);
 
-        layoutH.addWidgetAt(0, _keyWidget);
+        layoutH.addChildWidgetAt(0, _keyWidget);
 
         SharedDataModel.getInstance().isoDisplayMode = SharedDataModel.RELATIVE;
 

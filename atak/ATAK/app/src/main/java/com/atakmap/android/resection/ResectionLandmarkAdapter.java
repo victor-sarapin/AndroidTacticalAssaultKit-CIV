@@ -27,6 +27,7 @@ import com.atakmap.coremap.conversions.CoordinateFormatUtilities;
 import com.atakmap.coremap.maps.coords.GeoCalculations;
 import com.atakmap.coremap.maps.coords.GeoPoint;
 import com.atakmap.coremap.maps.coords.NorthReference;
+import com.atakmap.map.CameraController;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -176,13 +177,17 @@ public class ResectionLandmarkAdapter extends BaseAdapter implements
                 d.setTag(marker);
                 d.show(bearing, ResectionLandmarkAdapter.this);
             } else if (v.getId() == R.id.panto_location) {
-                _mapView.getMapController().panTo(marker.getPoint(), true);
+                CameraController.Programmatic.panTo(
+                        _mapView.getRenderer3(), marker.getPoint(), true);
             }
         }
     }
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences p, String key) {
+
+        if (key == null) return;
+
         if (key.equals("coord_display_pref")
                 || key.equals("rab_north_ref_pref"))
             notifyDataSetChanged();

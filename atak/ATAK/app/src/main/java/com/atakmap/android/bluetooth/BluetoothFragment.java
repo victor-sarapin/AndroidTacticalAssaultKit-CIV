@@ -84,6 +84,9 @@ public class BluetoothFragment implements OnSharedPreferenceChangeListener {
     @Override
     public void onSharedPreferenceChanged(
             final SharedPreferences prefs, final String key) {
+
+        if (key == null) return;
+
         if (key.equals("atakControlBluetooth")) {
             if (prefs.getBoolean(key, false)) {
                 BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
@@ -199,6 +202,7 @@ public class BluetoothFragment implements OnSharedPreferenceChangeListener {
         Thread t = new Thread() {
             public void run() {
                 toggleNotification(false);
+                manager.interrupt();
                 manager.stop();
             }
         };

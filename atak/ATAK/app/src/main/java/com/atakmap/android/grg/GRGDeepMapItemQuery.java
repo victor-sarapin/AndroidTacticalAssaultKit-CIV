@@ -6,6 +6,8 @@ import android.content.SharedPreferences;
 import com.atakmap.android.features.FeatureDataStoreDeepMapItemQuery;
 import com.atakmap.android.maps.MapItem;
 import com.atakmap.android.maps.MapView;
+import com.atakmap.map.hittest.HitTestControl;
+import com.atakmap.map.layer.Layer2;
 import com.atakmap.map.layer.feature.Feature;
 import com.atakmap.map.layer.feature.FeatureLayer3;
 import com.atakmap.map.layer.raster.AbstractDataStoreRasterLayer2;
@@ -16,7 +18,9 @@ import com.atakmap.map.layer.raster.RasterLayer2;
 import com.atakmap.map.hittest.HitTestQueryParameters;
 
 import java.io.File;
+import java.util.Collection;
 import java.util.Collections;
+import java.util.Map;
 import java.util.SortedSet;
 
 public class GRGDeepMapItemQuery extends FeatureDataStoreDeepMapItemQuery
@@ -86,11 +90,23 @@ public class GRGDeepMapItemQuery extends FeatureDataStoreDeepMapItemQuery
         return super.deepHitTest(mapView, params);
     }
 
+    @Override
+    public SortedSet<MapItem> deepHitTest(MapView mapView,
+            HitTestQueryParameters params,
+            Map<Layer2, Collection<HitTestControl>> controls) {
+        if (!this.hitTestEnabled)
+            return null;
+        return super.deepHitTest(mapView, params, controls);
+    }
+
     /**************************************************************************/
 
     @Override
     public synchronized void onSharedPreferenceChanged(SharedPreferences prefs,
             String key) {
+ 
+        if (key == null) return;
+
         if ("prefs_layer_grg_map_interaction".equals(key)) {
             this.hitTestEnabled = prefs.getBoolean(
                     "prefs_layer_grg_map_interaction", true);

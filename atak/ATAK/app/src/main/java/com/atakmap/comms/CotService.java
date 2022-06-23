@@ -121,6 +121,9 @@ public class CotService implements OnSharedPreferenceChangeListener,
     @Override
     public void onSharedPreferenceChanged(final SharedPreferences prefs,
             final String key) {
+
+        if (key == null) return; 
+
         if (key.compareTo("udpNoDataTimeout") == 0) {
             try {
                 udpNoDataTimeout = Integer.parseInt(prefs.getString(
@@ -343,13 +346,13 @@ public class CotService implements OnSharedPreferenceChangeListener,
                     .getCertificateForTypeAndServerAndPort(
                             AtakCertificateDatabaseIFace.TYPE_TRUST_STORE_CA,
                             connectParts[0],
-                            Integer.valueOf(connectParts[1]));
+                            Integer.parseInt(connectParts[1]));
             clientCert = CotService
                     .getCertificateDatabase()
                     .getCertificateForTypeAndServerAndPort(
                             AtakCertificateDatabaseIFace.TYPE_CLIENT_CERTIFICATE,
                             connectParts[0],
-                            Integer.valueOf(connectParts[1]));
+                            Integer.parseInt(connectParts[1]));
 
             boolean useConnectionTrustStore = trustStore != null;
             boolean useConnectionClientCert = clientCert != null;
@@ -362,7 +365,12 @@ public class CotService implements OnSharedPreferenceChangeListener,
                                 AtakCertificateDatabaseIFace.TYPE_TRUST_STORE_CA);
             }
 
-            if (!useConnectionClientCert) {
+            boolean enrollForCertificateWithTrust = output.getBoolean(
+                    "enrollForCertificateWithTrust", false);
+
+            // dont pull in default certs if the connection uses enrollment. enrollment
+            // always stores the cert with the connection
+            if (!useConnectionClientCert && !enrollForCertificateWithTrust) {
                 clientCert = CotService
                         .getCertificateDatabase()
                         .getCertificateForType(
@@ -468,7 +476,7 @@ public class CotService implements OnSharedPreferenceChangeListener,
 
             if (!hadError) {
                 //if we made it this far, validate the certificates for this connection
-                validateCert(connectParts[0], Integer.valueOf(connectParts[1]),
+                validateCert(connectParts[0], Integer.parseInt(connectParts[1]),
                         output);
             }
 

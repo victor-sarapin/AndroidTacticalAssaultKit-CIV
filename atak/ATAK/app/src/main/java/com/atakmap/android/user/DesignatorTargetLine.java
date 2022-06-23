@@ -128,6 +128,9 @@ public class DesignatorTargetLine implements
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
             String key) {
+
+        if (key == null) return;
+
         if (key.equals("laserBasketDegrees")) {
             _showDegrees = sharedPreferences.getBoolean(key, true);
             draw();
@@ -349,7 +352,7 @@ public class DesignatorTargetLine implements
             rb.setTitle(_mapView.getContext().getString(
                     R.string.designator_target_line));
             rb.setType("rb");
-            rb.setMetaBoolean("nonremovable", true);
+            rb.setMetaBoolean("removable", false);
             rb.setBearingUnits(Angle.DEGREE);
             rb.setNorthReference(NorthReference.MAGNETIC);
             rb.setMetaBoolean("disable_polar", true);
